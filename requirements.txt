@@ -5,3 +5,5 @@ jupyter_core==5.7.2
 nbstripout==0.8.1
 matplotlib==3.10.0
 plotly==6.1.1
+selenium==4.33.0
+webdriver-manager==4.0.2
