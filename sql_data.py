@@ -1,26 +1,25 @@
 import pandas as pd
 import sqlite3
 
-dirty_data_players = pd.read_csv('csv/players.csv')
-clean_players_data = dirty_data_players.copy()
+cleaned_players = pd.read_csv('csv/cleaned_players.csv')
 #Remove any duplicate rows from the DataFrame
-unique_players = clean_players_data[['Player_ID', 'Name']].drop_duplicates()
-annual_stats = clean_players_data[[
-    'Player_ID', 'Team', 'Statistic', 'Value', 'Year']].drop_duplicates()
+unique_players = cleaned_players[['Player_ID', 'Name', 'Team']].drop_duplicates()
+annual_stats = cleaned_players[[
+    'Player_ID', 'Statistic', 'Value', 'Year']].drop_duplicates()
 unique_players = unique_players.rename(columns={
     "Player_ID": "player_id",
     "Name": "name",
+    "Team": "team",
 })
 annual_stats = annual_stats.rename(columns={
     "Player_ID": "player_id",
-    "Team": "team",
     "Statistic": "statistic_type",
     "Value": "value",
     "Year": "year"
 })
-dirty_data_stats_players = pd.read_csv('csv/players_stats.csv')
-print(dirty_data_stats_players)
-clean_stats_data = dirty_data_stats_players.copy()
+raw_stats_players = pd.read_csv('csv/players_stats.csv')
+print(raw_stats_players)
+clean_stats_data = raw_stats_players.copy()
 
 # Drop some columns such as
 # GRSL - Grand Slams,
@@ -54,7 +53,7 @@ stats_df = players_stat_df_cleaned.rename(columns={
 def add_player(cursor, row):
     try:
         cursor.execute(
-            "INSERT INTO Players (player_id, name) VALUES (?, ?)", (row['player_id'], row['name']))
+            "INSERT INTO Players (player_id, name, team) VALUES (?, ?, ?)", (row['player_id'], row['name'], row['team']))
         print(f"Player {row['name']} added successfully.")
     except sqlite3.IntegrityError:
         print(f"{row['name']} is already in the database.")
@@ -106,7 +105,8 @@ try:
         cursor.execute("""
         CREATE TABLE IF NOT EXISTS Players(
             player_id TEXT PRIMARY KEY,
-            name TEXT NOT NULL
+            name TEXT NOT NULL,
+            team TEXT NOT NULL
             )
         """)
 
