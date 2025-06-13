@@ -4,7 +4,7 @@ import sqlite3
 
 dirty_data_players = pd.read_csv('csv/players.csv')
 clean_players_data = dirty_data_players.copy()
-# 4.2 Remove any duplicate rows from the DataFrame
+#Remove any duplicate rows from the DataFrame
 clean_players_data['Value'] = round(clean_players_data['Value'], 2)
 print(clean_players_data.info())
 unique_players = clean_players_data[['Player_ID', 'Name']].drop_duplicates()
@@ -35,7 +35,7 @@ clean_stats_data = dirty_data_stats_players.copy()
 # GIDP - Ground Into Double Play
 drop_columns = ['GRSL', 'IBB', 'SH', 'SF', 'HBP', 'GIDP']
 players_stat_df_cleaned = clean_stats_data.drop(columns=drop_columns)
-# Save after dropping columns
+# Rename columns for clarity
 stats_df = players_stat_df_cleaned.rename(columns={
     "Player_ID": "player_id",
     "Career_Length": "career_length",
