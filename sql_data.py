@@ -2,8 +2,9 @@ import pandas as pd
 import sqlite3
 
 cleaned_players = pd.read_csv('csv/cleaned_players.csv')
-#Remove any duplicate rows from the DataFrame
-unique_players = cleaned_players[['Player_ID', 'Name', 'Team']].drop_duplicates()
+# Remove any duplicate rows from the DataFrame
+unique_players = cleaned_players[[
+    'Player_ID', 'Name', 'Team']].drop_duplicates()
 annual_stats = cleaned_players[[
     'Player_ID', 'Statistic', 'Value', 'Year']].drop_duplicates()
 unique_players = unique_players.rename(columns={

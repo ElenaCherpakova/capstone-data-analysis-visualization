@@ -16,6 +16,7 @@ driver = webdriver.Chrome(service=ChromeService(
 playes_df = pd.read_csv('csv/cleaned_players.csv')
 unique_player_ids = playes_df['Player_ID'].unique()
 
+
 def scrap_player_stats(player_id):
     url = f"https://www.baseball-almanac.com/players/player.php?p={player_id}"
     driver.get(url)
