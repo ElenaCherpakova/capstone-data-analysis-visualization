@@ -1,20 +1,16 @@
 import pandas as pd
 import sqlite3
-# from datetime import datetime, timedelta
 
 dirty_data_players = pd.read_csv('csv/players.csv')
 clean_players_data = dirty_data_players.copy()
 #Remove any duplicate rows from the DataFrame
-clean_players_data['Value'] = round(clean_players_data['Value'], 2)
-print(clean_players_data.info())
 unique_players = clean_players_data[['Player_ID', 'Name']].drop_duplicates()
+annual_stats = clean_players_data[[
+    'Player_ID', 'Team', 'Statistic', 'Value', 'Year']].drop_duplicates()
 unique_players = unique_players.rename(columns={
     "Player_ID": "player_id",
     "Name": "name",
-
 })
-annual_stats = clean_players_data[[
-    'Player_ID', 'Team', 'Statistic', 'Value', 'Year']].drop_duplicates()
 annual_stats = annual_stats.rename(columns={
     "Player_ID": "player_id",
     "Team": "team",
