@@ -119,7 +119,7 @@ penaca01,Carlos Pena,Tampa Bay Rays,Home Runs,39.0,2009
 teixema01,Mark Teixeira,New York Yankees,Home Runs,39.0,2009
 mauerjo01,Joe Mauer,Minnesota Twins,On Base Percentage,0.444,2009
 teixema01,Mark Teixeira,New York Yankees,RBI,122.0,2009
-pedrodu01,DustinPedroia,Boston Red Sox,Runs,115.0,2009
+pedrodu01,Dustin Pedroia,Boston Red Sox,Runs,115.0,2009
 mauerjo01,Joe Mauer,Minnesota Twins,Slugging Average,0.587,2009
 ellsbja01,Jacoby Ellsbury,Boston Red Sox,Stolen Bases,70.0,2009
 teixema01,Mark Teixeira,New York Yankees,Total Bases,344.0,2009
@@ -148,7 +148,7 @@ grandcu01,Curtis Granderson,New York Yankees,RBI,119.0,2011
 grandcu01,Curtis Granderson,New York Yankees,Runs,136.0,2011
 bautijo02,Jose Bautista,Toronto Blue Jays,Slugging Average,0.608,2011
 crispco01,Coco Crisp,Oakland Athletics,Stolen Bases,49.0,2011
-pierrju01,Brett Gardner,New York Yankees,Stolen Bases,49.0,2011
+gardnbr01,Brett Gardner,New York Yankees,Stolen Bases,49.0,2011
 ellsbja01,Jacoby Ellsbury,Boston Red Sox,Total Bases,364.0,2011
 bourjpe01,Peter Bourjos,Los Angeles Angels,Triples,11.0,2011
 jacksau01,Austin Jackson,Detroit Tigers,Triples,11.0,2011
@@ -195,11 +195,11 @@ brantmi02,Michael Brantley,Cleveland Indians,Doubles,45.0,2015
 altuvjo01,Jose Altuve,Houston Astros,Hits,200.0,2015
 davisch02,Chris Davis,Baltimore Orioles,Home Runs,47.0,2015
 cabremi01,Miguel Cabrera,Detroit Tigers,On Base Percentage,0.44,2015
-altuvjo01,Josh Donaldson,Toronto Blue Jays,RBI,123.0,2015
-altuvjo01,Josh Donaldson,Toronto Blue Jays,Runs,122.0,2015
+donaljo02,Josh Donaldson,Toronto Blue Jays,RBI,123.0,2015
+donaljo02,Josh Donaldson,Toronto Blue Jays,Runs,122.0,2015
 troutmi01,Mike Trout,Los Angeles Angels,Slugging Average,0.59,2015
 altuvjo01,Jose Altuve,Houston Astros,Stolen Bases,38.0,2015
-altuvjo01,Josh Donaldson,Toronto Blue Jays,Total Bases,352.0,2015
+donaljo02,Josh Donaldson,Toronto Blue Jays,Total Bases,352.0,2015
 rosared01,Eddie Rosario,Minnesota Twins,Triples,15.0,2015
 troutmi01,Mike Trout,Los Angeles Angels,Base on Balls,116.0,2016
 altuvjo01,Jose Altuve,Houston Astros,Batting Average,0.338,2016
@@ -232,11 +232,11 @@ bregmal01,Alex Bregman,Houston Astros,Doubles,50.0,2018
 merriwh01,Whit Merrifield,Kansas City Royals,Hits,192.0,2018
 daviskh01,Khris Davis,Oakland Athletics,Home Runs,48.0,2018
 troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,0.46,2018
-martijd02,J.D. Martinez,Boston Red Sox,RBI,130.0,2018
+martijd02,J. D. Martinez,Boston Red Sox,RBI,130.0,2018
 bettsmo01,Mookie Betts,Boston Red Sox,Runs,129.0,2018
 bettsmo01,Mookie Betts,Boston Red Sox,Slugging Average,0.64,2018
 merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,45.0,2018
-martijd02,J.D. Martinez,Boston Red Sox,Total Bases,358.0,2018
+martijd02,J. D. Martinez,Boston Red Sox,Total Bases,358.0,2018
 sanchca01,Yolmer Sanchez,Chicago White Sox,Triples,10.0,2018
 smithma05,Mallex Smith,Tampa Bay Rays,Triples,10.0,2018
 bregmal01,Alex Bregman,Houston Astros,Base on Balls,119.0,2019
@@ -254,11 +254,11 @@ doziehu01,Hunter Dozier,Kansas City Royals,Triples,10.0,2019
 merriwh01,Whit Merrifield,Kansas City Royals,Triples,10.0,2019
 mondera02,Adalberto Mondesi,Kansas City Royals,Triples,10.0,2019
 santaca01,Carlos Santana,Cleveland Indians,Base on Balls,47.0,2020
-lemahdj01,DJ LeMahieu,New York Yankees,Batting Average,0.364,2020
+lemahdj01,D J Le Mahieu,New York Yankees,Batting Average,0.364,2020
 hernace02,Cesar Hernandez,Cleveland Indians,Doubles,20.0,2020
 abreujo02,Jose Abreu,Chicago White Sox,Hits,76.0,2020
 voitlu01,Luke Voit,New York Yankees,Home Runs,22.0,2020
-lemahdj01,DJ LeMahieu,New York Yankees,On Base Percentage,0.421,2020
+lemahdj01,D J Le Mahieu,New York Yankees,On Base Percentage,0.421,2020
 abreujo02,Jose Abreu,Chicago White Sox,RBI,60.0,2020
 anderti01,Tim Anderson,Chicago White Sox,Runs,45.0,2020
 ramirjo01,Jose Ramirez,Cleveland Indians,Runs,45.0,2020
@@ -269,7 +269,7 @@ tuckeky01,Kyle Tucker,Houston Astros,Triples,6.0,2020
 gallojo01,Joey Gallo,Texas Rangers,Base on Balls,111.0,2021
 gurriyu01,Yuli Gurriel,Houston Astros,Batting Average,0.319,2021
 candeje01,Jeimer Candelario,Detroit Tigers,Doubles,42.0,2021
-martijd02,J.D. Martinez,Boston Red Sox,Doubles,42.0,2021
+martijd02,J. D. Martinez,Boston Red Sox,Doubles,42.0,2021
 merriwh01,Whit Merrifield,Kansas City Royals,Doubles,42.0,2021
 bichebo01,Bo Bichette,Toronto Blue Jays,Hits,191.0,2021
 guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Home Runs,48.0,2021
@@ -283,7 +283,7 @@ guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Total Bases,363.0,2021
 ohtansh01,Shohei Ohtani,Los Angeles Angels,Triples,8.0,2021
 judgeaa01,Aaron Judge,New York Yankees,Base on Balls,111.0,2022
 arraelu01,Luis Arraez,Minnesota Twins,Batting Average,0.316,2022
-ramirjo01,José Ramírez,Cleveland Guardians,Doubles,44.0,2022
+ramirjo01,Jose Ramirez,Cleveland Guardians,Doubles,44.0,2022
 bichebo01,Bo Bichette,Toronto Blue Jays,Hits,189.0,2022
 judgeaa01,Aaron Judge,New York Yankees,Home Runs,62.0,2022
 judgeaa01,Aaron Judge,New York Yankees,On Base Percentage,0.425,2022
@@ -293,8 +293,8 @@ judgeaa01,Aaron Judge,New York Yankees,Slugging Average,0.686,2022
 mateojo01,Jorge Mateo,Baltimore Orioles,Stolen Bases,35.0,2022
 judgeaa01,Aaron Judge,New York Yankees,Total Bases,391.0,2022
 rosarar01,Amed Rosario,Cleveland Guardians,Triples,9.0,2022
-crawfjp01,J.P. Crawford,Seattle Mariners,Base on Balls,94.0,2023
-diazya01,Yandy Díaz,Tampa Bay Rays,Batting Average,0.33,2023
+crawfjp01,J. P. Crawford,Seattle Mariners,Base on Balls,94.0,2023
+diazya01,Yandy Diaz,Tampa Bay Rays,Batting Average,0.33,2023
 seageco01,Corey Seager,Texas Rangers,Doubles,42.0,2023
 semiema01,Marcus Semien,Texas Rangers,Hits,185.0,2023
 ohtansh01,Shohei Ohtani,Los Angeles Angels,Home Runs,44.0,2023
