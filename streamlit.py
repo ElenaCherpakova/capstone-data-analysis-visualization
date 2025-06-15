@@ -27,9 +27,9 @@ selected_columns = ['Name', 'Team', 'Statistic', 'Value', 'Year']
 player_data = players_fd[players_fd['Player_ID'] == select_player_id]
 player_df_display = player_data[selected_columns]
 year_df = players_fd[players_fd['Year'] == year_selected]
-st.subheader(f"Year in review: **{year_selected}** American League")
+st.subheader(f"Year in review: **{year_selected}** American League", divider=True)
 st.dataframe(year_df, hide_index=True)
 
 player_name = player_dict.get(select_player_id)
-st.subheader(f"Baseball Stats for **{player_name}**")
+st.subheader(f"Baseball Stats for **{player_name}**", divider=True)
 st.dataframe(player_df_display, hide_index=True)
