@@ -4,7 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
 import pandas as pd
-import csv
 import traceback
 import time
 
@@ -14,7 +13,7 @@ driver = webdriver.Chrome(service=ChromeService(
     ChromeDriverManager().install()), options=options)
 
 players_df = pd.read_csv('csv/cleaned_players.csv')
-unique_player_ids = players_df['Player_ID'].unique()
+unique_player_ids = players_df['player_id'].unique()
 
 
 def scrap_player_stats(player_id):
@@ -53,8 +52,8 @@ def scrap_player_stats(player_id):
             print(f"mismatch between stat and headers for player")
             return None
         player_state = {
-            'Player_ID': player_id,
-            "Career_Length": career_year
+            'player_id': player_id,
+            "career_length": career_year
         }
         for stat, value in zip(stat_headers, stat_values):
             player_state[stat] = value

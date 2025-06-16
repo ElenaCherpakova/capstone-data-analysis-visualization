@@ -1,4 +1,4 @@
-Player_ID,Name,Team,Statistic,Value,Year
+player_id,name,team,statistic,value,year
 giambja01,Jason Giambi,Oakland,Base on Balls,137,2000
 garcino01,Nomar Garciaparra,Boston,Batting Average,.372,2000
 delgaca01,Carlos Delgado,Toronto,Doubles,57,2000

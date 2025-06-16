@@ -2,14 +2,14 @@ import pandas as pd
 import unicodedata
 raw_players = pd.read_csv('csv/players.csv')
 
-duplicates = raw_players.groupby('Player_ID')['Name'].nunique()
+duplicates = raw_players.groupby('player_id')['name'].nunique()
 conflicts = duplicates[duplicates > 1]
 
 if not conflicts.empty:
     print('Found conflicts of Player_ID:')
     conflict_ids = conflicts.index.to_list()
-    print(raw_players[raw_players['Player_ID'].isin(
-        conflict_ids)][['Player_ID', 'Name']].drop_duplicates())
+    print(raw_players[raw_players['player_id'].isin(
+        conflict_ids)][['player_id', 'name']].drop_duplicates())
 
 correct_players_name = {
     "Brett Gardner":"gardnbr01",
@@ -51,18 +51,15 @@ team_name_mapping = {
     "Cleveland": "Cleveland Indians"
 }
 
-
-raw_players['Name'] = raw_players['Name'].apply(clean_name)
-
+raw_players['name'] = raw_players['name'].apply(clean_name)
 
 for name, player_id in correct_players_name.items():
-    raw_players.loc[raw_players['Name'] == name, 'Player_ID'] = player_id
+    raw_players.loc[raw_players['name'] == name, 'player_id'] = player_id
 
-raw_players['Team'] = raw_players['Team'].map(
-    team_name_mapping).fillna(raw_players['Team'])
+raw_players['team'] = raw_players['team'].map(
+    team_name_mapping).fillna(raw_players['team'])
 
-# print(raw_players.loc[raw_players['Name'] == "Brett Gardner", ['Player_ID', 'Name']])
-# print(raw_players.loc[raw_players['Name'] == "Josh Donaldson", ['Player_ID', 'Name']])
+
 
 raw_players.to_csv('csv/cleaned_players.csv', index=False)
 

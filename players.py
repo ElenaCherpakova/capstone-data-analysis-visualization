@@ -4,7 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
 import pandas as pd
-import csv
 import traceback
 import time
 
@@ -43,12 +42,12 @@ def scraper_player(year):
                 player_name = data_cells[0].text.strip()
                 player_team = data_cells[1].text.strip()
                 players.append({
-                    "Player_ID": player_id,
-                    "Name": player_name,
-                    "Team": player_team,
-                    "Statistic": last_stat_name,
-                    "Value": last_stat_value,
-                    "Year": year
+                    "player_id": player_id,
+                    "name": player_name,
+                    "team": player_team,
+                    "statistic": last_stat_name,
+                    "value": last_stat_value,
+                    "year": year
                 })
 
         except Exception as e:

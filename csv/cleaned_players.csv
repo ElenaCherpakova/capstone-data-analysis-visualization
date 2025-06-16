@@ -1,4 +1,4 @@
-Player_ID,Name,Team,Statistic,Value,Year
+player_id,name,team,statistic,value,year
 giambja01,Jason Giambi,Oakland Athletics,Base on Balls,137.0,2000
 garcino01,Nomar Garciaparra,Boston Red Sox,Batting Average,0.372,2000
 delgaca01,Carlos Delgado,Toronto Blue Jays,Doubles,57.0,2000
