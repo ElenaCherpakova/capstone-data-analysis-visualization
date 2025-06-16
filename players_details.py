@@ -13,8 +13,8 @@ options.add_argument('--headless')  # Enable headless mode
 driver = webdriver.Chrome(service=ChromeService(
     ChromeDriverManager().install()), options=options)
 
-playes_df = pd.read_csv('csv/cleaned_players.csv')
-unique_player_ids = playes_df['Player_ID'].unique()
+players_df = pd.read_csv('csv/cleaned_players.csv')
+unique_player_ids = players_df['Player_ID'].unique()
 
 
 def scrap_player_stats(player_id):
@@ -26,8 +26,14 @@ def scrap_player_stats(player_id):
     try:
         tables = driver.find_elements(By.CSS_SELECTOR, "div.ba-table")
 
+        if len(tables) < 3:
+            print(f"Not enough tables found for player {player_id}")
+            return None
         third_table = tables[2]
         rows = third_table.find_elements(By.TAG_NAME, "tr")
+        if len(rows) < 2:
+            print(f"Not enough rows found for player {player_id}")
+            return None
         second_last_row = rows[-2]
 
         year_data = second_last_row.find_element(
@@ -74,18 +80,11 @@ except Exception as e:
 finally:
     driver.quit()
 
-
 players_stat_df = pd.DataFrame(player_data)
-print(players_stat_df)
 
 
 try:
-    with open('csv/players_stats.csv', 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        if file.tell() == 0:
-            writer.writerow(players_stat_df.columns)
-        for row in players_stat_df.itertuples(index=False):
-            writer.writerow(row)
+    players_stat_df.to_csv('csv/players_stats.csv', index=False)
 except Exception as e:
     print(f"An error occurred while saving as CSV: {e}")
     traceback.print_exc()

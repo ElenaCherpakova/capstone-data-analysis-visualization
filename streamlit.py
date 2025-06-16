@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-
-players_fd = pd.read_csv('csv/cleaned_players.csv')
-career_fd = pd.read_csv("csv/players_stats.csv")
+players_fd_original = pd.read_csv('csv/cleaned_players.csv')
+career_fd_original = pd.read_csv("csv/players_stats.csv")
+players_fd = players_fd_original.copy()
+career_fd = career_fd_original.copy()
 players_fd["Year"] = players_fd["Year"].astype(int)
 career_fd["Career_Length"] = career_fd["Career_Length"].astype(int)
 player_ids = players_fd[['Player_ID', 'Name']].drop_duplicates()

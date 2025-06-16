@@ -78,12 +78,7 @@ print(players_df)
 
 
 try:
-    with open('csv/players.csv', 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        if file.tell() == 0:
-            writer.writerow(players_df.columns)
-        for row in players_df.itertuples(index=False):
-            writer.writerow(row)
+    players_df.to_csv('csv/players.csv', index=False)   
 except Exception as e:
     print(f"An error occurred while saving as CSV: {e}")
     traceback.print_exc()
