@@ -39,14 +39,14 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
    - On macOS/Linux:
 
         ```bash
-        python3 - m venv .venv
+        python3 -m venv .venv
         source .venv/bin/activate
         ```
 
     - On Windows(PowerShell):
 
         ```bash
-        python - m venv .venv
+        python -m venv .venv
         source .venv/Scripts/activate
         code .
         ```
@@ -55,7 +55,7 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
 3. **Install dependencies:**
 
    ```bash
-    pip install - r requirements.txt
+    pip install -r requirements.txt
     ```
 
 # Testing the SQL Command Program
