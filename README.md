@@ -12,16 +12,16 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
 
 # Project Components
 
-- **Web Scraping Program: **
-    Scrapes data from the[Major League Baseball History website](https: // www.baseball-almanac.com/yearmenu.shtml), assembles it into DataFrames, and stores the data as several CSV files.
+- **Web Scraping Program:**
+    Scrapes data from the [Major League Baseball History website](https://www.baseball-almanac.com/yearmenu.shtml), assembles it into DataFrames, and stores the data as several CSV files.
 
-- **Database Import Program: **
+- **Database Import Program:**
    Imports the CSV files into a MySQL database, with each CSV file stored as a separate table.
 
-- **Database Query Program: **
+- **Database Query Program:**
    A command-line tool to query the database using joins, for example, joining player statistics with event data.
 
-- **Dashboard Program: **
+- **Dashboard Program:**
    Builds an interactive dashboard using Streamlit or Dash to visualize the data and allow users to explore insights.
 
 ## Setup & Installation
