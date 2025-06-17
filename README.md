@@ -60,8 +60,6 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
 
 # Testing the SQL Command Program
 
-To test SQL queries, run the `sql_commands.py`
-
 ```bash
 python sql_commands.py
 ```
