@@ -60,8 +60,12 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
 
 # Testing the SQL Command Program
 
-To test SQL setup, run the `sqlcommand.py` program in a separate terminal session:
+To test SQL queries, run the `sql_commands.py`
 
 ```bash
-python sqlcommand.py
+python sql_commands.py
+```
+# Running Streamlit
+```bash
+streamlit run streamlit.py 
 ```

@@ -12,7 +12,7 @@ options.add_argument('--headless')  # Enable headless mode
 driver = webdriver.Chrome(service=ChromeService(
     ChromeDriverManager().install()), options=options)
 
-players_df = pd.read_csv('csv/cleaned_players.csv')
+players_df = pd.read_csv('../clean_data/players.csv')
 unique_player_ids = players_df['player_id'].unique()
 
 
@@ -83,7 +83,7 @@ players_stat_df = pd.DataFrame(player_data)
 
 
 try:
-    players_stat_df.to_csv('csv/players_stats.csv', index=False)
+    players_stat_df.to_csv('../raw_data/players_career_stats.csv', index=False)
 except Exception as e:
     print(f"An error occurred while saving as CSV: {e}")
     traceback.print_exc()

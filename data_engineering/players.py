@@ -1,6 +1,6 @@
 import pandas as pd
 import unicodedata
-raw_players = pd.read_csv('csv/players.csv')
+raw_players = pd.read_csv('../raw_data/players.csv')
 
 duplicates = raw_players.groupby('player_id')['name'].nunique()
 conflicts = duplicates[duplicates > 1]
@@ -61,5 +61,5 @@ raw_players['team'] = raw_players['team'].map(
 
 
 
-raw_players.to_csv('csv/cleaned_players.csv', index=False)
+raw_players.to_csv('../clean_data/players.csv', index=False)
 

@@ -1,14 +1,15 @@
 import pandas as pd
 import sqlite3
 
-cleaned_players = pd.read_csv('csv/cleaned_players.csv')
+cleaned_players = pd.read_csv('../clean_data/players.csv')
+stats_df = pd.read_csv('../clean_data/players_career_stats.csv')
+
 # Remove any duplicate rows from the DataFrame
 unique_players = cleaned_players[[
     'player_id', 'name', 'team']].drop_duplicates()
 annual_stats = cleaned_players[[
     'player_id', 'statistic', 'value', 'year']].drop_duplicates()
 
-stats_df = pd.read_csv('csv/cleaned_players_stats.csv')
 print(stats_df)
 
 
@@ -63,7 +64,7 @@ def add_career_stats(cursor, row):
 
 
 try:
-    with sqlite3.connect('./db/players.db') as conn:
+    with sqlite3.connect('../db/players.db') as conn:
         cursor = conn.cursor()
         conn.execute("PRAGMA foreign_keys = 1")
 
@@ -77,36 +78,36 @@ try:
 
         cursor.execute("""
                        CREATE TABLE IF NOT EXISTS PlayerStats (
-                        player_id TEXT,
-                        statistic TEXT,
-                        value REAL,
-                        year INTEGER,
+                        player_id TEXT NOT NULL,
+                        statistic TEXT NOT NULL,
+                        value REAL NOT NULL,
+                        year INTEGER NOT NULL,
                         FOREIGN KEY (player_id) REFERENCES Players(player_id),
                         UNIQUE (player_id, statistic, year)
                    )""")
         cursor.execute("""
                        CREATE TABLE IF NOT EXISTS CareerStats(
-                       player_id TEXT,
-                       career_length INTEGER,
-                       games_played INTEGER,
-                       at_bats INTEGER,
-                       runs INTEGER,
-                       hits INTEGER,
-                       doubles INTEGER,
-                       triples INTEGER,
-                       home_runs INTEGER,
-                       grand_slams INTEGER,
-                       runs_batted_in INTEGER,
-                       walks INTEGER,
-                       intentional_walks INTEGER,
-                       strikeouts INTEGER,
-                       sacrifice_hits INTEGER,
-                       sacrifice_flies INTEGER,
-                       hit_by_pitch INTEGER,
-                       ground_into_double_play INTEGER,
-                       batting_average REAL,
-                       on_base_percentage REAL,
-                       slugging_percentage REAL,
+                       player_id TEXT NOT NULL,
+                       career_length INTEGER NOT NULL,
+                       games_played INTEGER NOT NULL,
+                       at_bats INTEGER NOT NULL,
+                       runs INTEGER NOT NULL,
+                       hits INTEGER NOT NULL,
+                       doubles INTEGER NOT NULL,
+                       triples INTEGER NOT NULL,
+                       home_runs INTEGER NOT NULL,
+                       grand_slams INTEGER NOT NULL,
+                       runs_batted_in INTEGER NOT NULL,
+                       walks INTEGER NOT NULL,
+                       intentional_walks INTEGER NOT NULL,
+                       strikeouts INTEGER NOT NULL,
+                       sacrifice_hits INTEGER NOT NULL,
+                       sacrifice_flies INTEGER NOT NULL,
+                       hit_by_pitch INTEGER NOT NULL,
+                       ground_into_double_play INTEGER NOT NULL,
+                       batting_average REAL NOT NULL,
+                       on_base_percentage REAL NOT NULL,
+                       slugging_percentage REAL NOT NULL,
                        FOREIGN KEY (player_id) REFERENCES Players(player_id))
                        """)
         print('Tables created successfully.')

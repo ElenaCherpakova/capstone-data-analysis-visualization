@@ -77,7 +77,7 @@ print(players_df)
 
 
 try:
-    players_df.to_csv('csv/players.csv', index=False)   
+    players_df.to_csv('../raw_data/players.csv', index=False)   
 except Exception as e:
     print(f"An error occurred while saving as CSV: {e}")
     traceback.print_exc()

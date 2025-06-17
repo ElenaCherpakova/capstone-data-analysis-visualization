@@ -1,6 +1,6 @@
 import pandas as pd
 
-raw_player_stats = pd.read_csv('csv/players_stats.csv')
+raw_player_stats = pd.read_csv('../raw_data/players_career_stats.csv')
 
 # Rename columns for clarity
 players_stat_df_cleaned = raw_player_stats.rename(columns={
@@ -25,4 +25,4 @@ players_stat_df_cleaned = raw_player_stats.rename(columns={
     "SLG": "slugging_percentage"
 })
 
-players_stat_df_cleaned.to_csv('csv/cleaned_players_stats.csv', index=False)
+players_stat_df_cleaned.to_csv('../clean_data/players_career_stats.csv', index=False)
