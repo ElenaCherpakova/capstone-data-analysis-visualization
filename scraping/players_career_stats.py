@@ -2,10 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 import pandas as pd
 import traceback
-import time
+
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')  # Enable headless mode
@@ -19,15 +21,13 @@ unique_player_ids = players_df['player_id'].unique()
 def scrap_player_stats(player_id):
     url = f"https://www.baseball-almanac.com/players/player.php?p={player_id}"
     driver.get(url)
-    time.sleep(2)
     title = driver.title
     print(f"Title: {title}")
+    
+    wait = WebDriverWait(driver, 10)
     try:
+        wait.until(lambda d: len(d.find_elements(By.CSS_SELECTOR, "div.ba-table")) >= 3)
         tables = driver.find_elements(By.CSS_SELECTOR, "div.ba-table")
-
-        if len(tables) < 3:
-            print(f"Not enough tables found for player {player_id}")
-            return None
         third_table = tables[2]
         rows = third_table.find_elements(By.TAG_NAME, "tr")
         if len(rows) < 2:
@@ -72,7 +72,6 @@ try:
         stats = scrap_player_stats(player_id)
         if stats:
             player_data.append(stats)
-        time.sleep(3)
 except Exception as e:
     print("could't get the web page")
     print(f"Exception: {type(e).__name__} {e}")
