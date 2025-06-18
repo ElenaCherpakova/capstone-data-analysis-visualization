@@ -65,7 +65,7 @@ python sql_commands.py
 ```
 # Running Streamlit
 ```bash
-streamlit run streamlit.py 
+streamlit run streamlit_dash.py 
 ```
 # Deployed Streamlite Dashboard Link
 [Link](https://data-analysis-visualization-elena-cherpakova.streamlit.app)
