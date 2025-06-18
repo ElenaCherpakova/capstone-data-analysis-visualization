@@ -1,319 +1,641 @@
-player_id,name,team,statistic,value,year
-giambja01,Jason Giambi,Oakland,Base on Balls,137,2000
-garcino01,Nomar Garciaparra,Boston,Batting Average,.372,2000
-delgaca01,Carlos Delgado,Toronto,Doubles,57,2000
-erstada01,Darin Erstad,Anaheim,Hits,240,2000
-glaustr01,Troy Glaus,Anaheim,Home Runs,47,2000
-giambja01,Jason Giambi,Oakland,On Base Percentage,.476,2000
-martied01,Edgar Martinez,Seattle,RBI,145,2000
-damonjo01,Johnny Damon,Kansas City,Runs,136,2000
-ramirma02,Manny Ramirez,Cleveland,Slugging Average,.697,2000
-damonjo01,Johnny Damon,Kansas City,Stolen Bases,46,2000
-delgaca01,Carlos Delgado,Toronto,Total Bases,378,2000
-guzmacr01,Cristian Guzman,Minnesota,Triples,20,2000
-giambja01,Jason Giambi,Oakland,Base on Balls,129,2001
-suzukic01,Ichiro Suzuki,Seattle,Batting Average,.350,2001
-giambja01,Jason Giambi,Oakland,Doubles,47,2001
-suzukic01,Ichiro Suzuki,Seattle,Hits,242,2001
-rodrial01,Alex Rodriguez,Texas,Home Runs,52,2001
-giambja01,Jason Giambi,Oakland,On Base Percentage,.477,2001
-boonebr01,Bret Boone,Seattle,RBI,141,2001
-rodrial01,Alex Rodriguez,Texas,Runs,133,2001
-giambja01,Jason Giambi,Oakland,Slugging Average,.660,2001
-suzukic01,Ichiro Suzuki,Seattle,Stolen Bases,56,2001
-rodrial01,Alex Rodriguez,Texas,Total Bases,393,2001
-guzmacr01,Cristian Guzman,Minnesota,Triples,14,2001
-thomeji01,Jim Thome,Cleveland,Base on Balls,122,2002
-ramirma02,Manny Ramirez,Boston,Batting Average,.349,2002
-anderga01,Garret Anderson,Anaheim,Doubles,56,2002
-garcino01,Nomar Garciaparra,Boston,Doubles,56,2002
-soriaal01,Alfonso Soriano,New York,Hits,209,2002
-rodrial01,Alex Rodriguez,Texas,Home Runs,57,2002
-ramirma02,Manny Ramirez,Boston,On Base Percentage,.450,2002
-rodrial01,Alex Rodriguez,Texas,RBI,142,2002
-soriaal01,Alfonso Soriano,New York,Runs,128,2002
-thomeji01,Jim Thome,Cleveland,Slugging Average,.677,2002
-soriaal01,Alfonso Soriano,New York,Stolen Bases,41,2002
-rodrial01,Alex Rodriguez,Texas,Total Bases,389,2002
-damonjo01,Johnny Damon,Boston,Triples,11,2002
-giambja01,Jason Giambi,New York,Base on Balls,129,2003
-muellbi02,Bill Mueller,Boston,Batting Average,.326,2003
-anderga01,Garret Anderson,Anaheim,Doubles,49,2003
-wellsve01,Vernon Wells,Toronto,Doubles,49,2003
-wellsve01,Vernon Wells,Toronto,Hits,215,2003
-rodrial01,Alex Rodriguez,Texas,Home Runs,47,2003
-ramirma02,Manny Ramirez,Boston,On Base Percentage,.427,2003
-delgaca01,Carlos Delgado,Toronto,RBI,145,2003
-rodrial01,Alex Rodriguez,Texas,Runs,124,2003
-rodrial01,Alex Rodriguez,Texas,Slugging Average,.600,2003
-crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,55,2003
-wellsve01,Vernon Wells,Toronto,Total Bases,373,2003
-guzmacr01,Cristian Guzman,Minnesota,Triples,14,2003
-chaveer01,Eric Chavez,Oakland,Base on Balls,95,2004
-suzukic01,Ichiro Suzuki,Seattle,Batting Average,.372,2004
-roberbr01,Brian Roberts,Baltimore,Doubles,50,2004
-suzukic01,Ichiro Suzuki,Seattle,Hits,262,2004
-ramirma02,Manny Ramirez,Boston,Home Runs,43,2004
-morame01,Melvin Mora,Baltimore,On Base Percentage,.419,2004
-tejadmi01,Miguel Tejada,Baltimore,RBI,150,2004
-guerrvl01,Vladimir Guerrero,Anaheim,Runs,124,2004
-ramirma02,Manny Ramirez,Boston,Slugging Average,.613,2004
-crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,59,2004
-guerrvl01,Vladimir Guerrero,Anaheim,Total Bases,366,2004
-crawfca02,Carl Crawford,Tampa Bay,Triples,19,2004
-giambja01,Jason Giambi,New York,Base on Balls,108,2005
-youngmi02,Michael Young,Texas,Batting Average,.331,2005
-tejadmi01,Miguel Tejada,Baltimore,Doubles,50,2005
-youngmi02,Michael Young,Texas,Hits,221,2005
-rodrial01,Alex Rodriguez,New York,Home Runs,48,2005
-giambja01,Jason Giambi,New York,On Base Percentage,.440,2005
-ortizda01,David Ortiz,Boston,RBI,148,2005
-rodrial01,Alex Rodriguez,New York,Runs,124,2005
-rodrial01,Alex Rodriguez,New York,Slugging Average,.610,2005
-figgich01,Chone Figgins,Los Angeles,Stolen Bases,62,2005
-teixema01,Mark Teixeira,Texas,Total Bases,370,2005
-crawfca02,Carl Crawford,Tampa Bay,Triples,15,2005
-ortizda01,David Ortiz,Boston,Base on Balls,119,2006
-mauerjo01,Joe Mauer,Minnesota,Batting Average,.347,2006
-sizemgr01,Grady Sizemore,Cleveland,Doubles,53,2006
-suzukic01,Ichiro Suzuki,Seattle,Hits,224,2006
-ortizda01,David Ortiz,Boston,Home Runs,54,2006
-ramirma02,Manny Ramirez,Boston,On Base Percentage,.439,2006
-ortizda01,David Ortiz,Boston,RBI,137,2006
-sizemgr01,Grady Sizemore,Cleveland,Runs,134,2006
-hafnetr01,Travis Hafner,Cleveland,Slugging Average,.659,2006
-crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,58,2006
-ortizda01,David Ortiz,Boston,Total Bases,355,2006
-crawfca02,Carl Crawford,Tampa Bay,Triples,16,2006
-ortizda01,David Ortiz,Boston,Base on Balls,111,2007
-ordonma01,Magglio Ordonez,Detroit,Batting Average,.363,2007
-ordonma01,Magglio Ordonez,Detroit,Doubles,54,2007
-suzukic01,Ichiro Suzuki,Seattle,Hits,238,2007
-rodrial01,Alex Rodriguez,New York,Home Runs,54,2007
-ortizda01,David Ortiz,Boston,On Base Percentage,.445,2007
-rodrial01,Alex Rodriguez,New York,RBI,156,2007
-rodrial01,Alex Rodriguez,New York,Runs,143,2007
-rodrial01,Alex Rodriguez,New York,Slugging Average,.645,2007
-crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,50,2007
-roberbr01,Brian Roberts,Baltimore,Stolen Bases,50,2007
-rodrial01,Alex Rodriguez,New York,Total Bases,376,2007
-grandcu01,Curtis Granderson,Detroit,Triples,23,2007
-custja01,Jack Cust,Oakland,Base on Balls,111,2008
-mauerjo01,Joe Mauer,Minnesota,Batting Average,.330,2008
-pedrodu01,Dustin Pedroia,Boston,Doubles,54,2008
-pedrodu01,Dustin Pedroia,Boston,Hits,213,2008
-suzukic01,Ichiro Suzuki,Seattle,Hits,213,2008
-cabremi01,Miguel Cabrera,Detroit,Home Runs,37,2008
-bradlmi01,Milton Bradley,Texas,On Base Percentage,.436,2008
-hamiljo03,Josh Hamilton,Texas,RBI,130,2008
-pedrodu01,Dustin Pedroia,Boston,Runs,118,2008
-rodrial01,Alex Rodriguez,New York,Slugging Average,.573,2008
-ellsbja01,Jacoby Ellsbury,Boston,Stolen Bases,50,2008
-hamiljo03,Josh Hamilton,Texas,Total Bases,331,2008
-grandcu01,Curtis Granderson,Detroit,Triples,13,2008
-figgich01,Chone Figgins,Los Angeles,Base on Balls,101,2009
-mauerjo01,Joe Mauer,Minnesota,Batting Average,.365,2009
-roberbr01,Brian Roberts,Baltimore,Doubles,56,2009
-suzukic01,Ichiro Suzuki,Seattle,Hits,225,2009
-penaca01,Carlos Pena,Tampa Bay,Home Runs,39,2009
-teixema01,Mark Teixeira,New York,Home Runs,39,2009
-mauerjo01,Joe Mauer,Minnesota,On Base Percentage,.444,2009
-teixema01,Mark Teixeira,New York,RBI,122,2009
-pedrodu01,DustinPedroia,Boston,Runs,115,2009
-mauerjo01,Joe Mauer,Minnesota,Slugging Average,.587,2009
-ellsbja01,Jacoby Ellsbury,Boston,Stolen Bases,70,2009
-teixema01,Mark Teixeira,New York,Total Bases,344,2009
-ellsbja01,Jacoby Ellsbury,Boston,Triples,10,2009
-spande01,Denard Span,Minnesota,Triples,10,2009
-bartoda02,Daric Barton,Oakland,Base on Balls,110,2010
-hamiljo03,Josh Hamilton,Texas,Batting Average,.359,2010
-beltrad01,Adrian Beltre,Boston,Doubles,49,2010
-suzukic01,Ichiro Suzuki,Seattle,Hits,214,2010
-bautijo02,Jose Bautista,Toronto,Home Runs,54,2010
-cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.420,2010
-cabremi01,Miguel Cabrera,Detroit,RBI,126,2010
-teixema01,Mark Teixeira,New York,Runs,113,2010
-hamiljo03,Josh Hamilton,Texas,Slugging Average,.633,2010
-pierrju01,Juan Pierre,Chicago,Stolen Bases,68,2010
-bautijo02,Jose Bautista,Toronto,Total Bases,351,2010
-crawfca02,Carl Crawford,Tampa Bay,Triples,13,2010
-bautijo02,Jose Bautista,Toronto,Base on Balls,132,2011
-cabremi01,Miguel Cabrera,Detroit,Batting Average,.344,2011
-cabremi01,Miguel Cabrera,Detroit,Doubles,48,2011
-gonzaad01,Adrian Gonzalez,Boston,Hits,213,2011
-youngmi02,Michael Young,Texas,Hits,213,2011
-bautijo02,Jose Bautista,Toronto,Home Runs,43,2011
-cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.448,2011
-grandcu01,Curtis Granderson,New York,RBI,119,2011
-grandcu01,Curtis Granderson,New York,Runs,136,2011
-bautijo02,Jose Bautista,Toronto,Slugging Average,.608,2011
-crispco01,Coco Crisp,Oakland,Stolen Bases,49,2011
-pierrju01,Brett Gardner,New York,Stolen Bases,49,2011
-ellsbja01,Jacoby Ellsbury,Boston,Total Bases,364,2011
-bourjpe01,Peter Bourjos,Los Angeles,Triples,11,2011
-jacksau01,Austin Jackson,Detroit,Triples,11,2011
-dunnad01,Adam Dunn,Chicago,Base on Balls,105,2012
-cabremi01,Miguel Cabrera,Detroit,Batting Average,.330,2012
-gordoal01,Alex Gordon,Kansas City,Doubles,51,2012
-jeterde01,Derek Jeter,New York,Hits,216,2012
-cabremi01,Miguel Cabrera,Detroit,Home Runs,44,2012
-mauerjo01,Joe Mauer,Minnesota,On Base Percentage,.416,2012
-cabremi01,Miguel Cabrera,Detroit,RBI,139,2012
-troutmi01,Mike Trout,Los Angeles,Runs,129,2012
-cabremi01,Miguel Cabrera,Detroit,Slugging Average,.606,2012
-troutmi01,Mike Trout,Los Angeles,Stolen Bases,49,2012
-cabremi01,Miguel Cabrera,Detroit,Total Bases,377,2012
-jacksau01,Austin Jackson,Detroit,Triples,10,2012
-troutmi01,Mike Trout,Los Angeles,Base on Balls,110,2013
-cabremi01,Miguel Cabrera,Detroit,Batting Average,.348,2013
-machama01,Manny Machado,Baltimore,Doubles,51,2013
-beltrad01,Adrian Beltre,Texas,Hits,199,2013
-davisch02,Chris Davis,Baltimore,Home Runs,53,2013
-cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.442,2013
-davisch02,Chris Davis,Baltimore,RBI,138,2013
-troutmi01,Mike Trout,Los Angeles,Runs,109,2013
-cabremi01,Miguel Cabrera,Detroit,Slugging Average,.636,2013
-ellsbja01,Jacoby Ellsbury,Boston,Stolen Bases,52,2013
-davisch02,Chris Davis,Baltimore,Total Bases,370,2013
-gardnbr01,Brett Gardner,New York,Triples,10,2013
-santaca01,Carlos Santana,Cleveland,Base on Balls,113,2014
-altuvjo01,Jose Altuve,Houston,Batting Average,.341,2014
-cabremi01,Miguel Cabrera,Detroit,Doubles,52,2014
-altuvjo01,Jose Altuve,Houston,Hits,225,2014
-cruzne02,Nelson Cruz,Baltimore,Home Runs,40,2014
-martivi01,Victor Martinez,Detroit,On Base Percentage,.409,2014
-troutmi01,Mike Trout,Los Angeles,RBI,111,2014
-troutmi01,Mike Trout,Los Angeles,Runs,115,2014
-abreujo02,Jose Abreu,Chicago,Slugging Average,.581,2014
-altuvjo01,Jose Altuve,Chicago,Stolen Bases,56,2014
-troutmi01,Mike Trout,Los Angeles,Total Bases,338,2014
-bournmi01,Michael Bourn,Cleveland,Triples,10,2014
-eatonad01,Adam Eaton,Chicago,Triples,10,2014
-bautijo02,Jose Bautista,Toronto,Base on Balls,110,2015
-cabremi01,Miguel Cabrera,Detroit,Batting Average,.338,2015
-brantmi02,Michael Brantley,Cleveland,Doubles,45,2015
-altuvjo01,Jose Altuve,Houston,Hits,200,2015
-davisch02,Chris Davis,Baltimore,Home Runs,47,2015
-cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.440,2015
-altuvjo01,Josh Donaldson,Toronto,RBI,123,2015
-altuvjo01,Josh Donaldson,Toronto,Runs,122,2015
-troutmi01,Mike Trout,Los Angeles,Slugging Average,.590,2015
-altuvjo01,Jose Altuve,Houston,Stolen Bases,38,2015
-altuvjo01,Josh Donaldson,Toronto,Total Bases,352,2015
-rosared01,Eddie Rosario,Minnesota,Triples,15,2015
-troutmi01,Mike Trout,Los Angeles,Base on Balls,116,2016
-altuvjo01,Jose Altuve,Houston,Batting Average,.338,2016
-ortizda01,David Ortiz,Boston,Doubles,48,2016
-altuvjo01,Jose Altuve,Houston,Hits,216,2016
-trumbma01,Mark Trumbo,Baltimore,Home Runs,47,2016
-troutmi01,Mike Trout,Los Angeles,On Base Percentage,.441,2016
-encared01,Edwin Encarnacion,Toronto,RBI,127,2016
-ortizda01,David Ortiz,Boston,RBI,127,2016
-troutmi01,Mike Trout,Los Angeles,Runs,123,2016
-ortizda01,David Ortiz,Boston,Slugging Average,.620,2016
-davisra01,Rajai Davis,Cleveland,Stolen Bases,43,2016
-bettsmo01,Mookie Betts,Boston,Total Bases,359,2016
-eatonad02,Adam Eaton,Chicago,Triples,9,2016
-judgeaa01,Aaron Judge,New York Yankees,Base on Balls,127,2017
-altuvjo01,Jose Altuve,Houston Astros,Batting Average,.346,2017
-ramirjo01,Jose Ramirez,Cleveland Indians,Doubles,56,2017
-altuvjo01,Jose Altuve,Houston Astros,Hits,204,2017
-judgeaa01,Aaron Judge,New York Yankees,Home Runs,52,2017
-troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,.442,2017
-cruzne02,Nelson Cruz,Seattle Mariners,RBI,119,2017
-judgeaa01,Aaron Judge,New York Yankees,Runs,128,2017
-troutmi01,Mike Trout,Los Angeles Angels,Slugging Average,.629,2017
-merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,34,2017
-abreujo02,Jose Abreu,Chicago White Sox,Total Bases,343,2017
-casteni01,Nick Castellanos,Detroit Tigers,Triples,10,2017
-troutmi01,Mike Trout,Los Angeles Angels,Base on Balls,122,2018
-bettsmo01,Mookie Betts,Boston Red Sox,Batting Average,.346,2018
-bregmal01,Alex Bregman,Houston Astros,Doubles,50,2018
-merriwh01,Whit Merrifield,Kansas City Royals,Hits,192,2018
-daviskh01,Khris Davis,Oakland Athletics,Home Runs,48,2018
-troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,.460,2018
-martijd02,J.D. Martinez,Boston Red Sox,RBI,130,2018
-bettsmo01,Mookie Betts,Boston Red Sox,Runs,129,2018
-bettsmo01,Mookie Betts,Boston Red Sox,Slugging Average,.640,2018
-merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,45,2018
-martijd02,J.D. Martinez,Boston Red Sox,Total Bases,358,2018
-sanchca01,Yolmer Sanchez,Chicago White Sox,Triples,10,2018
-smithma05,Mallex Smith,Tampa Bay Rays,Triples,10,2018
-bregmal01,Alex Bregman,Houston Astros,Base on Balls,119,2019
-anderti01,Tim Anderson,Chicago White Sox,Batting Average,.335,2019
-deverra01,Rafael Devers,Boston Red Sox,Doubles,54,2019
-merriwh01,Whit Merrifield,Kansas City Royals,Hits,206,2019
-solerjo01,Jorge Soler,Kansas City Royals,Home Runs,48,2019
-troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,.438,2019
-abreujo02,Jose Abreu,Chicago White Sox,RBI,123,2019
-bettsmo01,Mookie Betts,Boston Red Sox,Runs,135,2019
-troutmi01,Mike Trout,Los Angeles Angels,Slugging Average,.645,2019
-smithma05,Mallex Smith,Tampa Bay Rays,Stolen Bases,46,2019
-deverra01,Rafael Devers,Boston Red Sox,Total Bases,359,2019
-doziehu01,Hunter Dozier,Kansas City Royals,Triples,10,2019
-merriwh01,Whit Merrifield,Kansas City Royals,Triples,10,2019
-mondera02,Adalberto Mondesi,Kansas City Royals,Triples,10,2019
-santaca01,Carlos Santana,Cleveland Indians,Base on Balls,47,2020
-lemahdj01,DJ LeMahieu,New York Yankees,Batting Average,.364,2020
-hernace02,Cesar Hernandez,Cleveland Indians,Doubles,20,2020
-abreujo02,Jose Abreu,Chicago White Sox,Hits,76,2020
-voitlu01,Luke Voit,New York Yankees,Home Runs,22,2020
-lemahdj01,DJ LeMahieu,New York Yankees,On Base Percentage,.421,2020
-abreujo02,Jose Abreu,Chicago White Sox,RBI,60,2020
-anderti01,Tim Anderson,Chicago White Sox,Runs,45,2020
-ramirjo01,Jose Ramirez,Cleveland Indians,Runs,45,2020
-abreujo02,Jose Abreu,Chicago White Sox,Slugging Average,.617,2020
-mondera02,Adalberto Mondesi,Kansas City Royals,Stolen Bases,24,2020
-abreujo02,Jose Abreu,Chicago White Sox,Total Bases,148,2020
-tuckeky01,Kyle Tucker,Houston Astros,Triples,6,2020
-gallojo01,Joey Gallo,Texas Rangers,Base on Balls,111,2021
-gurriyu01,Yuli Gurriel,Houston Astros,Batting Average,.319,2021
-candeje01,Jeimer Candelario,Detroit Tigers,Doubles,42,2021
-martijd02,J.D. Martinez,Boston Red Sox,Doubles,42,2021
-merriwh01,Whit Merrifield,Kansas City Royals,Doubles,42,2021
-bichebo01,Bo Bichette,Toronto Blue Jays,Hits,191,2021
-guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Home Runs,48,2021
-perezsa02,Salvador Perez,Kansas City Royals,Home Runs,48,2021
-guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,On Base Percentage,.401,2021
-perezsa02,Salvador Perez,Kansas City Royals,RBI,121,2021
-guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Runs,123,2021
-guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Slugging Average,.601,2021
-merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,40,2021
-guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Total Bases,363,2021
-ohtansh01,Shohei Ohtani,Los Angeles Angels,Triples,8,2021
-judgeaa01,Aaron Judge,New York Yankees,Base on Balls,111,2022
-arraelu01,Luis Arraez,Minnesota Twins,Batting Average,.316,2022
-ramirjo01,José Ramírez,Cleveland Guardians,Doubles,44,2022
-bichebo01,Bo Bichette,Toronto Blue Jays,Hits,189,2022
-judgeaa01,Aaron Judge,New York Yankees,Home Runs,62,2022
-judgeaa01,Aaron Judge,New York Yankees,On Base Percentage,.425,2022
-judgeaa01,Aaron Judge,New York Yankees,RBI,131,2022
-judgeaa01,Aaron Judge,New York Yankees,Runs,133,2022
-judgeaa01,Aaron Judge,New York Yankees,Slugging Average,.686,2022
-mateojo01,Jorge Mateo,Baltimore Orioles,Stolen Bases,35,2022
-judgeaa01,Aaron Judge,New York Yankees,Total Bases,391,2022
-rosarar01,Amed Rosario,Cleveland Guardians,Triples,9,2022
-crawfjp01,J.P. Crawford,Seattle Mariners,Base on Balls,94,2023
-diazya01,Yandy Díaz,Tampa Bay Rays,Batting Average,.330,2023
-seageco01,Corey Seager,Texas Rangers,Doubles,42,2023
-semiema01,Marcus Semien,Texas Rangers,Hits,185,2023
-ohtansh01,Shohei Ohtani,Los Angeles Angels,Home Runs,44,2023
-ohtansh01,Shohei Ohtani,Los Angeles Angels,On Base Percentage,.412,2023
-tuckeky01,Kyle Tucker,Houston Astros,RBI,112,2023
-semiema01,Marcus Semien,Texas Rangers,Runs,122,2023
-ohtansh01,Shohei Ohtani,Los Angeles Angels,Slugging Average,.654,2023
-ruizes01,Esteury Ruiz,Oakland Athletics,Stolen Bases,67,2023
-ohtansh01,Shohei Ohtani,Los Angeles Angels,Total Bases,325,2023
-wittbo02,Bobby Witt Jr.,Kansas City Royals,Triples,11,2023
-judgeaa01,Aaron Judge,New York,Base on Balls,133,2024
-wittbo02,Bobby Witt Jr.,Kansas City,Batting Average,.332,2024
-duranja01,Jarren Duran,Boston,Doubles,48,2024
-wittbo02,Bobby Witt Jr.,Kansas City,Hits,211,2024
-judgeaa01,Aaron Judge,New York,Home Runs,58,2024
-judgeaa01,Aaron Judge,New York,On Base Percentage,.458,2024
-judgeaa01,Aaron Judge,New York,RBI,144,2024
-sotoju01,Juan Soto,New York,Runs,128,2024
-judgeaa01,Aaron Judge,New York,Slugging Average,.701,2024
-cabaljo01,Jose Caballero,Tampa Bay,Stolen Bases,44,2024
-judgeaa01,Aaron Judge,New York,Total Bases,392,2024
-duranja01,Jarren Duran,Boston,Triples,14,2024
+player_id,name,team,statistic,value,year,league
+giambja01,Jason Giambi,Oakland,Base on Balls,137,2000,American
+garcino01,Nomar Garciaparra,Boston,Batting Average,.372,2000,American
+delgaca01,Carlos Delgado,Toronto,Doubles,57,2000,American
+erstada01,Darin Erstad,Anaheim,Hits,240,2000,American
+glaustr01,Troy Glaus,Anaheim,Home Runs,47,2000,American
+giambja01,Jason Giambi,Oakland,On Base Percentage,.476,2000,American
+martied01,Edgar Martinez,Seattle,RBI,145,2000,American
+damonjo01,Johnny Damon,Kansas City,Runs,136,2000,American
+ramirma02,Manny Ramirez,Cleveland,Slugging Average,.697,2000,American
+damonjo01,Johnny Damon,Kansas City,Stolen Bases,46,2000,American
+delgaca01,Carlos Delgado,Toronto,Total Bases,378,2000,American
+guzmacr01,Cristian Guzman,Minnesota,Triples,20,2000,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,117,2000,National
+heltoto01,Todd Helton,Colorado,Batting Average,.372,2000,National
+heltoto01,Todd Helton,Colorado,Doubles,59,2000,National
+heltoto01,Todd Helton,Colorado,Hits,216,2000,National
+sosasa01,Sammy Sosa,Chicago,Home Runs,50,2000,National
+heltoto01,Todd Helton,Colorado,On Base Percentage,.463,2000,National
+heltoto01,Todd Helton,Colorado,RBI,147,2000,National
+bagweje01,Jeff Bagwell,Houston,Runs,152,2000,National
+heltoto01,Todd Helton,Colorado,Slugging Average,.698,2000,National
+castilu01,Luis Castillo,Florida,Stolen Bases,62,2000,National
+heltoto01,Todd Helton,Colorado,Total Bases,405,2000,National
+womacto01,Tony Womack,Arizona,Triples,14,2000,National
+giambja01,Jason Giambi,Oakland,Base on Balls,129,2001,American
+suzukic01,Ichiro Suzuki,Seattle,Batting Average,.350,2001,American
+giambja01,Jason Giambi,Oakland,Doubles,47,2001,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,242,2001,American
+rodrial01,Alex Rodriguez,Texas,Home Runs,52,2001,American
+giambja01,Jason Giambi,Oakland,On Base Percentage,.477,2001,American
+boonebr01,Bret Boone,Seattle,RBI,141,2001,American
+rodrial01,Alex Rodriguez,Texas,Runs,133,2001,American
+giambja01,Jason Giambi,Oakland,Slugging Average,.660,2001,American
+suzukic01,Ichiro Suzuki,Seattle,Stolen Bases,56,2001,American
+rodrial01,Alex Rodriguez,Texas,Total Bases,393,2001,American
+guzmacr01,Cristian Guzman,Minnesota,Triples,14,2001,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,177,2001,National
+walkela01,Larry Walker,Colorado,Batting Average,.350,2001,National
+berkmla01,Lance Berkman,Houston,Doubles,55,2001,National
+aurilri01,Rich Aurilia,San Francisco,Hits,206,2001,National
+bondsba01,Barry Bonds,San Francisco,Home Runs,73,2001,National
+bondsba01,Barry Bonds,San Francisco,On Base Percentage,.515,2001,National
+sosasa01,Sammy Sosa,Chicago,RBI,160,2001,National
+sosasa01,Sammy Sosa,Chicago,Runs,146,2001,National
+bondsba01,Barry Bonds,San Francisco,Slugging Average,.863,2001,National
+pierrju01,Juan Pierre,Colorado,Stolen Bases,46,2001,National
+rolliji01,Jimmy Rollins,Philadelphia,Stolen Bases,46,2001,National
+sosasa01,Sammy Sosa,Chicago,Total Bases,425,2001,National
+rolliji01,Jimmy Rollins,Philadelphia,Triples,12,2001,National
+thomeji01,Jim Thome,Cleveland,Base on Balls,122,2002,American
+ramirma02,Manny Ramirez,Boston,Batting Average,.349,2002,American
+anderga01,Garret Anderson,Anaheim,Doubles,56,2002,American
+garcino01,Nomar Garciaparra,Boston,Doubles,56,2002,American
+soriaal01,Alfonso Soriano,New York,Hits,209,2002,American
+rodrial01,Alex Rodriguez,Texas,Home Runs,57,2002,American
+ramirma02,Manny Ramirez,Boston,On Base Percentage,.450,2002,American
+rodrial01,Alex Rodriguez,Texas,RBI,142,2002,American
+soriaal01,Alfonso Soriano,New York,Runs,128,2002,American
+thomeji01,Jim Thome,Cleveland,Slugging Average,.677,2002,American
+soriaal01,Alfonso Soriano,New York,Stolen Bases,41,2002,American
+rodrial01,Alex Rodriguez,Texas,Total Bases,389,2002,American
+damonjo01,Johnny Damon,Boston,Triples,11,2002,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,198,2002,National
+bondsba01,Barry Bonds,San Francisco,Batting Average,.370,2002,National
+abreubo01,Bobby Abreu,Philadelphia,Doubles,50,2002,National
+guerrvl01,Vladimir Guerrero,Montreal,Hits,206,2002,National
+sosasa01,Sammy Sosa,Chicago,Home Runs,49,2002,National
+bondsba01,Barry Bonds,San Francisco,On Base Percentage,.582,2002,National
+berkmla01,Lance Berkman,Houston,RBI,128,2002,National
+sosasa01,Sammy Sosa,Chicago,Runs,122,2002,National
+bondsba01,Barry Bonds,San Francisco,Slugging Average,.799,2002,National
+castilu01,Luis Castillo,Florida,Stolen Bases,48,2002,National
+guerrvl01,Vladimir Guerrero,Montreal,Total Bases,364,2002,National
+rolliji01,Jimmy Rollins,Philadelphia,Triples,10,2002,National
+giambja01,Jason Giambi,New York,Base on Balls,129,2003,American
+muellbi02,Bill Mueller,Boston,Batting Average,.326,2003,American
+anderga01,Garret Anderson,Anaheim,Doubles,49,2003,American
+wellsve01,Vernon Wells,Toronto,Doubles,49,2003,American
+wellsve01,Vernon Wells,Toronto,Hits,215,2003,American
+rodrial01,Alex Rodriguez,Texas,Home Runs,47,2003,American
+ramirma02,Manny Ramirez,Boston,On Base Percentage,.427,2003,American
+delgaca01,Carlos Delgado,Toronto,RBI,145,2003,American
+rodrial01,Alex Rodriguez,Texas,Runs,124,2003,American
+rodrial01,Alex Rodriguez,Texas,Slugging Average,.600,2003,American
+crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,55,2003,American
+wellsve01,Vernon Wells,Toronto,Total Bases,373,2003,American
+guzmacr01,Cristian Guzman,Minnesota,Triples,14,2003,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,148,2003,National
+pujolal01,Albert Pujols,St. Louis,Batting Average,.359,2003,National
+pujolal01,Albert Pujols,St. Louis,Doubles,51,2003,National
+pujolal01,Albert Pujols,St. Louis,Hits,212,2003,National
+thomeji01,Jim Thome,Philadelphia,Home Runs,47,2003,National
+bondsba01,Barry Bonds,San Francisco,On Base Percentage,.529,2003,National
+wilsopr01,Preston Wilson,Colorado,RBI,141,2003,National
+pujolal01,Albert Pujols,St. Louis,Runs,137,2003,National
+bondsba01,Barry Bonds,San Francisco,Slugging Average,.749,2003,National
+pierrju01,Juan Pierre,Florida,Stolen Bases,45,2003,National
+pujolal01,Albert Pujols,St. Louis,Total Bases,394,2003,National
+finlest01,Steve Finley,Arizona,Triples,10,2003,National
+furcara02,Rafael Furcal,Atlanta,Triples,10,2003,National
+chaveer01,Eric Chavez,Oakland,Base on Balls,95,2004,American
+suzukic01,Ichiro Suzuki,Seattle,Batting Average,.372,2004,American
+roberbr01,Brian Roberts,Baltimore,Doubles,50,2004,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,262,2004,American
+ramirma02,Manny Ramirez,Boston,Home Runs,43,2004,American
+morame01,Melvin Mora,Baltimore,On Base Percentage,.419,2004,American
+tejadmi01,Miguel Tejada,Baltimore,RBI,150,2004,American
+guerrvl01,Vladimir Guerrero,Anaheim,Runs,124,2004,American
+ramirma02,Manny Ramirez,Boston,Slugging Average,.613,2004,American
+crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,59,2004,American
+guerrvl01,Vladimir Guerrero,Anaheim,Total Bases,366,2004,American
+crawfca02,Carl Crawford,Tampa Bay,Triples,19,2004,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,232,2004,National
+bondsba01,Barry Bonds,San Francisco,Batting Average,.362,2004,National
+overbly01,Lyle Overbay,Milwaukee,Doubles,53,2004,National
+pierrju01,Juan Pierre,Florida,Hits,221,2004,National
+beltrad01,Adrian Beltre,Los Angeles,Home Runs,48,2004,National
+bondsba01,Barry Bonds,San Francisco,On Base Percentage,.609,2004,National
+castivi02,Vinny Castilla,Colorado,RBI,131,2004,National
+pujolal01,Albert Pujols,St. Louis,Runs,133,2004,National
+bondsba01,Barry Bonds,San Francisco,Slugging Average,.812,2004,National
+podsesc01,Scott Podsednik,Milwaukee,Stolen Bases,70,2004,National
+pujolal01,Albert Pujols,St. Louis,Total Bases,389,2004,National
+pierrju01,Juan Pierre,Florida,Triples,12,2004,National
+rolliji01,Jimmy Rollins,Philadelphia,Triples,12,2004,National
+wilsoja02,Jack Wilson,Pittsburgh,Triples,12,2004,National
+giambja01,Jason Giambi,New York,Base on Balls,108,2005,American
+youngmi02,Michael Young,Texas,Batting Average,.331,2005,American
+tejadmi01,Miguel Tejada,Baltimore,Doubles,50,2005,American
+youngmi02,Michael Young,Texas,Hits,221,2005,American
+rodrial01,Alex Rodriguez,New York,Home Runs,48,2005,American
+giambja01,Jason Giambi,New York,On Base Percentage,.440,2005,American
+ortizda01,David Ortiz,Boston,RBI,148,2005,American
+rodrial01,Alex Rodriguez,New York,Runs,124,2005,American
+rodrial01,Alex Rodriguez,New York,Slugging Average,.610,2005,American
+figgich01,Chone Figgins,Los Angeles,Stolen Bases,62,2005,American
+teixema01,Mark Teixeira,Texas,Total Bases,370,2005,American
+crawfca02,Carl Crawford,Tampa Bay,Triples,15,2005,American
+gilesbr02,Brian Giles,San Diego,Base on Balls,119,2005,National
+leede02,Derrek Lee,Chicago,Batting Average,.335,2005,National
+leede02,Derrek Lee,Chicago,Doubles,50,2005,National
+leede02,Derrek Lee,Chicago,Hits,199,2005,National
+jonesan01,Andruw Jones,Atlanta,Home Runs,51,2005,National
+heltoto01,Todd Helton,Colorado,On Base Percentage,.445,2005,National
+jonesan01,Andruw Jones,Atlanta,RBI,128,2005,National
+pujolal01,Albert Pujols,St. Louis,Runs,129,2005,National
+leede02,Derrek Lee,Chicago,Slugging Average,.662,2005,National
+reyesjo01,Jose Reyes,New York,Stolen Bases,60,2005,National
+leede02,Derrek Lee,Chicago,Total Bases,393,2005,National
+reyesjo01,Jose Reyes,New York,Triples,17,2005,National
+ortizda01,David Ortiz,Boston,Base on Balls,119,2006,American
+mauerjo01,Joe Mauer,Minnesota,Batting Average,.347,2006,American
+sizemgr01,Grady Sizemore,Cleveland,Doubles,53,2006,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,224,2006,American
+ortizda01,David Ortiz,Boston,Home Runs,54,2006,American
+ramirma02,Manny Ramirez,Boston,On Base Percentage,.439,2006,American
+ortizda01,David Ortiz,Boston,RBI,137,2006,American
+sizemgr01,Grady Sizemore,Cleveland,Runs,134,2006,American
+hafnetr01,Travis Hafner,Cleveland,Slugging Average,.659,2006,American
+crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,58,2006,American
+ortizda01,David Ortiz,Boston,Total Bases,355,2006,American
+crawfca02,Carl Crawford,Tampa Bay,Triples,16,2006,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,115,2006,National
+sanchfr01,Freddy Sanchez,Pittsburgh,Batting Average,.344,2006,National
+sanchfr01,Freddy Sanchez,Pittsburgh,Doubles,53,2006,National
+pierrju01,Juan Pierre,Chicago,Hits,204,2006,National
+howarry01,Ryan Howard,Philadelphia,Home Runs,58,2006,National
+bondsba01,Barry Bonds *,San Francisco,On Base Percentage,.454,2006,National
+howarry01,Ryan Howard,Philadelphia,RBI,149,2006,National
+utleych01,Chase Utley,Philadelphia,Runs,131,2006,National
+pujolal01,Albert Pujols,St. Louis,Slugging Average,.671,2006,National
+reyesjo01,Jose Reyes,New York,Stolen Bases,64,2006,National
+howarry01,Ryan Howard,Philadelphia,Total Bases,383,2006,National
+reyesjo01,Jose Reyes,New York,Triples,17,2006,National
+ortizda01,David Ortiz,Boston,Base on Balls,111,2007,American
+ordonma01,Magglio Ordonez,Detroit,Batting Average,.363,2007,American
+ordonma01,Magglio Ordonez,Detroit,Doubles,54,2007,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,238,2007,American
+rodrial01,Alex Rodriguez,New York,Home Runs,54,2007,American
+ortizda01,David Ortiz,Boston,On Base Percentage,.445,2007,American
+rodrial01,Alex Rodriguez,New York,RBI,156,2007,American
+rodrial01,Alex Rodriguez,New York,Runs,143,2007,American
+rodrial01,Alex Rodriguez,New York,Slugging Average,.645,2007,American
+crawfca02,Carl Crawford,Tampa Bay,Stolen Bases,50,2007,American
+roberbr01,Brian Roberts,Baltimore,Stolen Bases,50,2007,American
+rodrial01,Alex Rodriguez,New York,Total Bases,376,2007,American
+grandcu01,Curtis Granderson,Detroit,Triples,23,2007,American
+bondsba01,Barry Bonds,San Francisco,Base on Balls,132,2007,National
+hollima01,Matt Holliday,Colorado,Batting Average,.340,2007,National
+hollima01,Matt Holliday,Colorado,Doubles,50,2007,National
+hollima01,Matt Holliday,Colorado,Hits,216,2007,National
+fieldpr01,Prince Fielder,Milwaukee,Home Runs,50,2007,National
+heltoto01,Todd Helton,Colorado,On Base Percentage,.434,2007,National
+hollima01,Matt Holliday,Colorado,RBI,137,2007,National
+rolliji01,Jimmy Rollins,Philadelphia,Runs,139,2007,National
+fieldpr01,Prince Fielder,Milwaukee,Slugging Average,.618,2007,National
+reyesjo01,Jose Reyes,New York,Stolen Bases,78,2007,National
+hollima01,Matt Holliday,Colorado,Total Bases,386,2007,National
+rolliji01,Jimmy Rollins,Philadelphia,Triples,20,2007,National
+custja01,Jack Cust,Oakland,Base on Balls,111,2008,American
+mauerjo01,Joe Mauer,Minnesota,Batting Average,.330,2008,American
+pedrodu01,Dustin Pedroia,Boston,Doubles,54,2008,American
+pedrodu01,Dustin Pedroia,Boston,Hits,213,2008,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,213,2008,American
+cabremi01,Miguel Cabrera,Detroit,Home Runs,37,2008,American
+bradlmi01,Milton Bradley,Texas,On Base Percentage,.436,2008,American
+hamiljo03,Josh Hamilton,Texas,RBI,130,2008,American
+pedrodu01,Dustin Pedroia,Boston,Runs,118,2008,American
+rodrial01,Alex Rodriguez,New York,Slugging Average,.573,2008,American
+ellsbja01,Jacoby Ellsbury,Boston,Stolen Bases,50,2008,American
+hamiljo03,Josh Hamilton,Texas,Total Bases,331,2008,American
+grandcu01,Curtis Granderson,Detroit,Triples,13,2008,American
+dunnad01,Adam Dunn,Arizona,Base on Balls,122,2008,National
+jonesch06,Chipper Jones,Atlanta,Batting Average,.364,2008,National
+berkmla01,Lance Berkman,Houston,Doubles,46,2008,National
+mclouna01,Nate McLouth,Pittsburgh,Doubles,46,2008,National
+reyesjo01,Jose Reyes,New York,Hits,204,2008,National
+howarry01,Ryan Howard,Philadelphia,Home Runs,48,2008,National
+jonesch06,Chipper Jones,Atlanta,On Base Percentage,.470,2008,National
+howarry01,Ryan Howard,Philadelphia,RBI,146,2008,National
+ramirha01,Hanley Ramirez,Florida,Runs,125,2008,National
+pujolal01,Albert Pujols,St. Louis,Slugging Average,.653,2008,National
+taverwi01,Willy Taveras,Colorado,Stolen Bases,68,2008,National
+pujolal01,Albert Pujols,St. Louis,Total Bases,342,2008,National
+reyesjo01,Jose Reyes,New York,Triples,19,2008,National
+figgich01,Chone Figgins,Los Angeles,Base on Balls,101,2009,American
+mauerjo01,Joe Mauer,Minnesota,Batting Average,.365,2009,American
+roberbr01,Brian Roberts,Baltimore,Doubles,56,2009,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,225,2009,American
+penaca01,Carlos Pena,Tampa Bay,Home Runs,39,2009,American
+teixema01,Mark Teixeira,New York,Home Runs,39,2009,American
+mauerjo01,Joe Mauer,Minnesota,On Base Percentage,.444,2009,American
+teixema01,Mark Teixeira,New York,RBI,122,2009,American
+pedrodu01,DustinPedroia,Boston,Runs,115,2009,American
+mauerjo01,Joe Mauer,Minnesota,Slugging Average,.587,2009,American
+ellsbja01,Jacoby Ellsbury,Boston,Stolen Bases,70,2009,American
+teixema01,Mark Teixeira,New York,Total Bases,344,2009,American
+ellsbja01,Jacoby Ellsbury,Boston,Triples,10,2009,American
+spande01,Denard Span,Minnesota,Triples,10,2009,American
+gonzaad01,Adrian Gonzalez,San Diego,Base on Balls,119,2009,National
+ramirha01,Hanley Ramirez,Florida,Batting Average,.342,2009,National
+tejadmi01,Miguel Tejada,Houston,Doubles,46,2009,National
+braunry01,Ryan Braun,Milwaukee,Hits,203,2009,National
+pujolal01,Albert Pujols,St. Louis,Home Runs,47,2009,National
+pujolal01,Albert Pujols,St. Louis,On Base Percentage,.443,2009,National
+fieldpr01,Prince Fielder,Milwaukee,RBI,141,2009,National
+howarry01,Ryan Howard,Philadelphia,RBI,141,2009,National
+pujolal01,Albert Pujols,St. Louis,Runs,124,2009,National
+pujolal01,Albert Pujols,St. Louis,Slugging Average,.658,2009,National
+bournmi01,Michael Bourn,Houston,Stolen Bases,61,2009,National
+pujolal01,Albert Pujols,St. Louis,Total Bases,374,2009,National
+victosh01,Shane Victorino,Philadelphia,Triples,13,2009,National
+bartoda02,Daric Barton,Oakland,Base on Balls,110,2010,American
+hamiljo03,Josh Hamilton,Texas,Batting Average,.359,2010,American
+beltrad01,Adrian Beltre,Boston,Doubles,49,2010,American
+suzukic01,Ichiro Suzuki,Seattle,Hits,214,2010,American
+bautijo02,Jose Bautista,Toronto,Home Runs,54,2010,American
+cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.420,2010,American
+cabremi01,Miguel Cabrera,Detroit,RBI,126,2010,American
+teixema01,Mark Teixeira,New York,Runs,113,2010,American
+hamiljo03,Josh Hamilton,Texas,Slugging Average,.633,2010,American
+pierrju01,Juan Pierre,Chicago,Stolen Bases,68,2010,American
+bautijo02,Jose Bautista,Toronto,Total Bases,351,2010,American
+crawfca02,Carl Crawford,Tampa Bay,Triples,13,2010,American
+fieldpr01,Prince Fielder,Milwaukee,Base on Balls,114,2010,National
+gonzaca01,Carlos Gonzalez,Colorado,Batting Average,.336,2010,National
+werthja01,Jayson Werth,Philadelphia,Doubles,46,2010,National
+gonzaca01,Carlos Gonzalez,Colorado,Hits,197,2010,National
+pujolal01,Albert Pujols,St. Louis,Home Runs,42,2010,National
+vottojo01,Joey Votto,Cincinnati,On Base Percentage,.424,2010,National
+pujolal01,Albert Pujols,St. Louis,RBI,118,2010,National
+pujolal01,Albert Pujols,St. Louis,Runs,115,2010,National
+vottojo01,Joey Votto,Cincinnati,Slugging Average,.600,2010,National
+bournmi01,Michael Bourn,Houston,Stolen Bases,52,2010,National
+gonzaca01,Carlos Gonzalez,Colorado,Total Bases,351,2010,National
+fowlede01,Dexter Fowler,Colorado,Triples,14,2010,National
+bautijo02,Jose Bautista,Toronto,Base on Balls,132,2011,American
+cabremi01,Miguel Cabrera,Detroit,Batting Average,.344,2011,American
+cabremi01,Miguel Cabrera,Detroit,Doubles,48,2011,American
+gonzaad01,Adrian Gonzalez,Boston,Hits,213,2011,American
+youngmi02,Michael Young,Texas,Hits,213,2011,American
+bautijo02,Jose Bautista,Toronto,Home Runs,43,2011,American
+cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.448,2011,American
+grandcu01,Curtis Granderson,New York,RBI,119,2011,American
+grandcu01,Curtis Granderson,New York,Runs,136,2011,American
+bautijo02,Jose Bautista,Toronto,Slugging Average,.608,2011,American
+crispco01,Coco Crisp,Oakland,Stolen Bases,49,2011,American
+pierrju01,Brett Gardner,New York,Stolen Bases,49,2011,American
+ellsbja01,Jacoby Ellsbury,Boston,Total Bases,364,2011,American
+bourjpe01,Peter Bourjos,Los Angeles,Triples,11,2011,American
+jacksau01,Austin Jackson,Detroit,Triples,11,2011,American
+vottojo01,Joey Votto,Cincinnati,Base on Balls,110,2011,National
+reyesjo01,Jose Reyes,New York,Batting Average,.337,2011,National
+vottojo01,Joey Votto,Cincinnati,Doubles,40,2011,National
+castrst01,Starlin Castro,Chicago,Hits,207,2011,National
+kempma01,Matt Kemp,Los Angeles,Home Runs,39,2011,National
+vottojo01,Joey Votto,Cincinnati,On Base Percentage,.416,2011,National
+kempma01,Matt Kemp,Los Angeles,RBI,126,2011,National
+kempma01,Matt Kemp,Los Angeles,Runs,115,2011,National
+braunry02,Ryan Braun,Milwaukee,Slugging Average,.597,2011,National
+bournmi01,Michael Bourn,Houston / Atlanta,Stolen Bases,61,2011,National
+kempma01,Matt Kemp,Los Angeles,Total Bases,353,2011,National
+reyesjo01,Jose Reyes,New York,Triples,16,2011,National
+victosh01,Shane Victorino,Philadelphia,Triples,16,2011,National
+dunnad01,Adam Dunn,Chicago,Base on Balls,105,2012,American
+cabremi01,Miguel Cabrera,Detroit,Batting Average,.330,2012,American
+gordoal01,Alex Gordon,Kansas City,Doubles,51,2012,American
+jeterde01,Derek Jeter,New York,Hits,216,2012,American
+cabremi01,Miguel Cabrera,Detroit,Home Runs,44,2012,American
+mauerjo01,Joe Mauer,Minnesota,On Base Percentage,.416,2012,American
+cabremi01,Miguel Cabrera,Detroit,RBI,139,2012,American
+troutmi01,Mike Trout,Los Angeles,Runs,129,2012,American
+cabremi01,Miguel Cabrera,Detroit,Slugging Average,.606,2012,American
+troutmi01,Mike Trout,Los Angeles,Stolen Bases,49,2012,American
+cabremi01,Miguel Cabrera,Detroit,Total Bases,377,2012,American
+jacksau01,Austin Jackson,Detroit,Triples,10,2012,American
+ugglada01,Dan Uggla,Atlanta,Base on Balls,94,2012,National
+vottojo01,Joey Votto,Cincinnati,Base on Balls,94,2012,National
+poseybu01,Buster Posey *,San Francisco,Batting Average,.336,2012,National
+ramirar01,Aramis Ramirez,Milwaukee,Doubles,50,2012,National
+mccutan01,Andrew McCutchen,Pittsburgh,Hits,194,2012,National
+braunry02,Ryan Braun,Milwaukee,Home Runs,41,2012,National
+vottojo01,Joey Votto,Cincinnati,On Base Percentage,.474,2012,National
+headlch01,Chase Headley,San Diego,RBI,115,2012,National
+braunry02,Ryan Braun,Milwaukee,Runs,108,2012,National
+stantmi02,Mike Stanton,Miami,Slugging Average,.608,2012,National
+cabreev01,Everth Cabrera,San Diego,Stolen Bases,44,2012,National
+braunry02,Ryan Braun,Milwaukee,Total Bases,356,2012,National
+paganan01,Angel Pagan,San Francisco,Triples,15,2012,National
+troutmi01,Mike Trout,Los Angeles,Base on Balls,110,2013,American
+cabremi01,Miguel Cabrera,Detroit,Batting Average,.348,2013,American
+machama01,Manny Machado,Baltimore,Doubles,51,2013,American
+beltrad01,Adrian Beltre,Texas,Hits,199,2013,American
+davisch02,Chris Davis,Baltimore,Home Runs,53,2013,American
+cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.442,2013,American
+davisch02,Chris Davis,Baltimore,RBI,138,2013,American
+troutmi01,Mike Trout,Los Angeles,Runs,109,2013,American
+cabremi01,Miguel Cabrera,Detroit,Slugging Average,.636,2013,American
+ellsbja01,Jacoby Ellsbury,Boston,Stolen Bases,52,2013,American
+davisch02,Chris Davis,Baltimore,Total Bases,370,2013,American
+gardnbr01,Brett Gardner,New York,Triples,10,2013,American
+vottojo01,Joey Votto,Cincinnati,Base on Balls,135,2013,National
+cuddymi01,Michael Cuddyer,Colorado,Batting Average,.331,2013,National
+carpema01,Matt Carpenter,St. Louis,Doubles,55,2013,National
+carpema01,Matt Carpenter,St. Louis,Hits,199,2013,National
+alvarpe01,Pedro Alvarez,Pittsburgh,Home Runs,36,2013,National
+goldspa01,Paul Goldschmidt,Arizona,Home Runs,36,2013,National
+vottojo01,Joey Votto,Cincinnati,On Base Percentage,.435,2013,National
+goldspa01,Paul Goldschmidt,Arizona,RBI,125,2013,National
+carpema01,Matt Carpenter,St. Louis,Runs,126,2013,National
+goldspa01,Paul Goldschmidt,Arizona,Slugging Average,.552,2013,National
+younger03,Eric Young,Colorado / New York,Stolen Bases,46,2013,National
+goldspa01,Paul Goldschmidt,Arizona,Total Bases,332,2013,National
+spande01,Denard Span,Washington,Triples,11,2013,National
+santaca01,Carlos Santana,Cleveland,Base on Balls,113,2014,American
+altuvjo01,Jose Altuve,Houston,Batting Average,.341,2014,American
+cabremi01,Miguel Cabrera,Detroit,Doubles,52,2014,American
+altuvjo01,Jose Altuve,Houston,Hits,225,2014,American
+cruzne02,Nelson Cruz,Baltimore,Home Runs,40,2014,American
+martivi01,Victor Martinez,Detroit,On Base Percentage,.409,2014,American
+troutmi01,Mike Trout,Los Angeles,RBI,111,2014,American
+troutmi01,Mike Trout,Los Angeles,Runs,115,2014,American
+abreujo02,Jose Abreu,Chicago,Slugging Average,.581,2014,American
+altuvjo01,Jose Altuve,Chicago,Stolen Bases,56,2014,American
+troutmi01,Mike Trout,Los Angeles,Total Bases,338,2014,American
+bournmi01,Michael Bourn,Cleveland,Triples,10,2014,American
+eatonad01,Adam Eaton,Chicago,Triples,10,2014,American
+carpema01,Matt Carpenter,St. Louis,Base on Balls,95,2014,National
+morneju01,Justin Morneau,Colorado,Batting Average,.319,2014,National
+lucrojo01,Jonathan Lucroy,Milwaukee,Doubles,53,2014,National
+reverbe01,Ben Revere,Philadelphia,Hits,184,2014,National
+spande01,Denard Span,Washington,Hits,184,2014,National
+stantmi03,Giancarlo Stanton,Miami,Home Runs,37,2014,National
+mccutan01,Andrew McCutchen,Pittsburgh,On Base Percentage,.410,2014,National
+gonzaad01,Adrian Gonzalez,Los Angeles,RBI,116,2014,National
+rendoan01,Anthony Rendon,Washington,Runs,111,2014,National
+stantmi03,Giancarlo Stanton,Miami,Slugging Average,.555,2014,National
+gordode01,Dee Strange-Gordon,Los Angeles,Stolen Bases,64,2014,National
+stantmi03,Giancarlo Stanton,Miami,Total Bases,299,2014,National
+gordode01,Dee Strange-Gordon,Los Angeles,Triples,12,2014,National
+bautijo02,Jose Bautista,Toronto,Base on Balls,110,2015,American
+cabremi01,Miguel Cabrera,Detroit,Batting Average,.338,2015,American
+brantmi02,Michael Brantley,Cleveland,Doubles,45,2015,American
+altuvjo01,Jose Altuve,Houston,Hits,200,2015,American
+davisch02,Chris Davis,Baltimore,Home Runs,47,2015,American
+cabremi01,Miguel Cabrera,Detroit,On Base Percentage,.440,2015,American
+altuvjo01,Josh Donaldson,Toronto,RBI,123,2015,American
+altuvjo01,Josh Donaldson,Toronto,Runs,122,2015,American
+troutmi01,Mike Trout,Los Angeles,Slugging Average,.590,2015,American
+altuvjo01,Jose Altuve,Houston,Stolen Bases,38,2015,American
+altuvjo01,Josh Donaldson,Toronto,Total Bases,352,2015,American
+rosared01,Eddie Rosario,Minnesota,Triples,15,2015,American
+vottojo01,Joey Votto,Cincinnati,Base on Balls,143,2015,National
+gordode01,Dee Gordon,Miami,Batting Average,.333,2015,National
+carpema01,Matt Carpenter,St. Louis,Doubles,44,2015,National
+gordode01,Dee Gordon,Miami,Hits,205,2015,National
+arenano01,Nolan Arenado,Colorado,Home Runs,42,2015,National
+harpebr03,Bryce Harper,Washington,Home Runs,42,2015,National
+harpebr03,Bryce Harper,Washington,On Base Percentage,.460,2015,National
+arenano01,Nolan Arenado,Colorado,RBI,130,2015,National
+harpebr03,Bryce Harper,Washington,Runs,118,2015,National
+harpebr03,Bryce Harper,Washington,Slugging Average,.649,2015,National
+gordode01,Dee Gordon,Miami,Stolen Bases,58,2015,National
+arenano01,Nolan Arenado,Colorado,Total Bases,354,2015,National
+peralda01,David Peralta,Arizona,Triples,10,2015,National
+troutmi01,Mike Trout,Los Angeles,Base on Balls,116,2016,American
+altuvjo01,Jose Altuve,Houston,Batting Average,.338,2016,American
+ortizda01,David Ortiz,Boston,Doubles,48,2016,American
+altuvjo01,Jose Altuve,Houston,Hits,216,2016,American
+trumbma01,Mark Trumbo,Baltimore,Home Runs,47,2016,American
+troutmi01,Mike Trout,Los Angeles,On Base Percentage,.441,2016,American
+encared01,Edwin Encarnacion,Toronto,RBI,127,2016,American
+ortizda01,David Ortiz,Boston,RBI,127,2016,American
+troutmi01,Mike Trout,Los Angeles,Runs,123,2016,American
+ortizda01,David Ortiz,Boston,Slugging Average,.620,2016,American
+davisra01,Rajai Davis,Cleveland,Stolen Bases,43,2016,American
+bettsmo01,Mookie Betts,Boston,Total Bases,359,2016,American
+eatonad02,Adam Eaton,Chicago,Triples,9,2016,American
+goldspa01,Paul Goldschmidt,Arizona,Base on Balls,110,2016,National
+lemahdj01,DJ LeMahieu,Colorado,Batting Average,.348,2016,National
+murphda08,Daniel Murphy,Washington,Doubles,47,2016,National
+segurja01,Jean Segura,Arizona,Hits,203,2016,National
+arenano01,Nolan Arenado,Colorado,Home Runs,41,2016,National
+cartech02,Chris Carter,Milwaukee,Home Runs,41,2016,National
+vottojo01,Joey Votto,Cincinnati,On Base Percentage,.434,2016,National
+arenano01,Nolan Arenado,Colorado,RBI,133,2016,National
+bryankr01,Kris Bryant,Chicago,Runs,121,2016,National
+murphda08,Daniel Murphy,Washington,Slugging Average,.595,2016,National
+villajo01,Jonathan Villar,Milwaukee,Stolen Bases,62,2016,National
+arenano01,Nolan Arenado,Colorado,Total Bases,352,2016,National
+crawfbr01,Brandon Crawford,San Francisco,Triples,11,2016,National
+hernace02,Cesar Hernandez,Philadelphia,Triples,11,2016,National
+owingch01,Chris Owings,Arizona,Triples,11,2016,National
+judgeaa01,Aaron Judge,New York Yankees,Base on Balls,127,2017,American
+altuvjo01,Jose Altuve,Houston Astros,Batting Average,.346,2017,American
+ramirjo01,Jose Ramirez,Cleveland Indians,Doubles,56,2017,American
+altuvjo01,Jose Altuve,Houston Astros,Hits,204,2017,American
+judgeaa01,Aaron Judge,New York Yankees,Home Runs,52,2017,American
+troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,.442,2017,American
+cruzne02,Nelson Cruz,Seattle Mariners,RBI,119,2017,American
+judgeaa01,Aaron Judge,New York Yankees,Runs,128,2017,American
+troutmi01,Mike Trout,Los Angeles Angels,Slugging Average,.629,2017,American
+merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,34,2017,American
+abreujo02,Jose Abreu,Chicago White Sox,Total Bases,343,2017,American
+casteni01,Nick Castellanos,Detroit Tigers,Triples,10,2017,American
+vottojo01,Joey Votto,Cincinnati Reds,Base on Balls,134,2017,National
+blackch02,Charlie Blackmon,Colorado Rockies,Batting Average,.331,2017,National
+arenano01,Nolan Arenado,Colorado Rockies,Doubles,43,2017,National
+murphda08,Daniel Murphy,Washington Nationals,Doubles,43,2017,National
+blackch02,Charlie Blackmon,Colorado Rockies,Hits,213,2017,National
+stantmi03,Giancarlo Stanton,Miami Marlins,Home Runs,59,2017,National
+vottojo01,Joey Votto,Cincinnati Reds,On Base Percentage,.454,2017,National
+stantmi03,Giancarlo Stanton,Miami Marlins,RBI,132,2017,National
+blackch02,Charlie Blackmon,Colorado Rockies,Runs,137,2017,National
+stantmi03,Giancarlo Stanton,Miami Marlins,Slugging Average,.631,2017,National
+gordode01,Dee Gordon,Miami Marlins,Stolen Bases,60,2017,National
+blackch02,Charlie Blackmon,Colorado Rockies,Total Bases,387,2017,National
+blackch02,Charlie Blackmon,Colorado Rockies,Triples,14,2017,National
+troutmi01,Mike Trout,Los Angeles Angels,Base on Balls,122,2018,American
+bettsmo01,Mookie Betts,Boston Red Sox,Batting Average,.346,2018,American
+bregmal01,Alex Bregman,Houston Astros,Doubles,50,2018,American
+merriwh01,Whit Merrifield,Kansas City Royals,Hits,192,2018,American
+daviskh01,Khris Davis,Oakland Athletics,Home Runs,48,2018,American
+troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,.460,2018,American
+martijd02,J.D. Martinez,Boston Red Sox,RBI,130,2018,American
+bettsmo01,Mookie Betts,Boston Red Sox,Runs,129,2018,American
+bettsmo01,Mookie Betts,Boston Red Sox,Slugging Average,.640,2018,American
+merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,45,2018,American
+martijd02,J.D. Martinez,Boston Red Sox,Total Bases,358,2018,American
+sanchca01,Yolmer Sanchez,Chicago White Sox,Triples,10,2018,American
+smithma05,Mallex Smith,Tampa Bay Rays,Triples,10,2018,American
+harpebr03,Bryce Harper,Washington Nationals,Base on Balls,130,2018,National
+yelicch01,Christian Yelich,Milwaukee Brewers,Batting Average,.326,2018,National
+freemfr01,Freddie Freeman,Atlanta Braves,Doubles,44,2018,National
+rendoan01,Anthony Rendon,Washington Nationals,Doubles,44,2018,National
+freemfr01,Freddie Freeman,Atlanta Braves,Hits,191,2018,National
+arenano01,Nolan Arenado,Colorado Rockies,Home Runs,38,2018,National
+vottojo01,Joey Votto,Cincinnati Reds,On Base Percentage,.417,2018,National
+baezja01,Javier Baez,Chicago Cubs,RBI,111,2018,National
+blackch02,Charlie Blackmon,Colorado Rockies,Runs,119,2018,National
+yelicch01,Christian Yelich,Milwaukee Brewers,Slugging Average,.598,2018,National
+turnetr01,Trea Turner,Washington Nationals,Stolen Bases,43,2018,National
+yelicch01,Christian Yelich,Milwaukee Brewers,Total Bases,343,2018,National
+marteke01,Ketel Marte,Arizona Diamondbacks,Triples,12,2018,National
+bregmal01,Alex Bregman,Houston Astros,Base on Balls,119,2019,American
+anderti01,Tim Anderson,Chicago White Sox,Batting Average,.335,2019,American
+deverra01,Rafael Devers,Boston Red Sox,Doubles,54,2019,American
+merriwh01,Whit Merrifield,Kansas City Royals,Hits,206,2019,American
+solerjo01,Jorge Soler,Kansas City Royals,Home Runs,48,2019,American
+troutmi01,Mike Trout,Los Angeles Angels,On Base Percentage,.438,2019,American
+abreujo02,Jose Abreu,Chicago White Sox,RBI,123,2019,American
+bettsmo01,Mookie Betts,Boston Red Sox,Runs,135,2019,American
+troutmi01,Mike Trout,Los Angeles Angels,Slugging Average,.645,2019,American
+smithma05,Mallex Smith,Tampa Bay Rays,Stolen Bases,46,2019,American
+deverra01,Rafael Devers,Boston Red Sox,Total Bases,359,2019,American
+doziehu01,Hunter Dozier,Kansas City Royals,Triples,10,2019,American
+merriwh01,Whit Merrifield,Kansas City Royals,Triples,10,2019,American
+mondera02,Adalberto Mondesi,Kansas City Royals,Triples,10,2019,American
+hoskirh01,Rhys Hoskins,Philadelphia Phillies,Base on Balls,116,2019,National
+yelicch01,Christian Yelich,Milwaukee Brewers,Batting Average,.329,2019,National
+rendoan01,Anthony Rendon,Washington Nationals,Doubles,44,2019,National
+seageco01,Corey Seager,Los Angeles Dodgers,Doubles,44,2019,National
+albieoz01,Ozzie Albies,Atlanta Braves,Hits,189,2019,National
+alonspe01,Pete Alonso,New York Mets,Home Runs,53,2019,National
+yelicch01,Christian Yelich,Milwaukee Brewers,On Base Percentage,.429,2019,National
+rendoan01,Anthony Rendon,Washington Nationals,RBI,126,2019,National
+acunaro01,Ronald Acuna Jr.,Atlanta Braves,Runs,127,2019,National
+yelicch01,Christian Yelich,Milwaukee Brewers,Slugging Average,.671,2019,National
+acunaro01,Ronald Acuna Jr.,Atlanta Braves,Stolen Bases,37,2019,National
+bellico01,Cody Bellinger,Los Angeles Dodgers,Total Bases,351,2019,National
+escobed01,Eduardo Escobar,Arizona Diamondbacks,Triples,10,2019,National
+santaca01,Carlos Santana,Cleveland Indians,Base on Balls,47,2020,American
+lemahdj01,DJ LeMahieu,New York Yankees,Batting Average,.364,2020,American
+hernace02,Cesar Hernandez,Cleveland Indians,Doubles,20,2020,American
+abreujo02,Jose Abreu,Chicago White Sox,Hits,76,2020,American
+voitlu01,Luke Voit,New York Yankees,Home Runs,22,2020,American
+lemahdj01,DJ LeMahieu,New York Yankees,On Base Percentage,.421,2020,American
+abreujo02,Jose Abreu,Chicago White Sox,RBI,60,2020,American
+anderti01,Tim Anderson,Chicago White Sox,Runs,45,2020,American
+ramirjo01,Jose Ramirez,Cleveland Indians,Runs,45,2020,American
+abreujo02,Jose Abreu,Chicago White Sox,Slugging Average,.617,2020,American
+mondera02,Adalberto Mondesi,Kansas City Royals,Stolen Bases,24,2020,American
+abreujo02,Jose Abreu,Chicago White Sox,Total Bases,148,2020,American
+tuckeky01,Kyle Tucker,Houston Astros,Triples,6,2020,American
+harpebr03,Bryce Harper,Philadelphia Phillies,Base on Balls,49,2020,National
+sotoju01,Juan Soto,Washington Nationals,Batting Average,.351,2020,National
+freemfr01,Freddie Freeman,Atlanta Braves,Doubles,23,2020,National
+turnetr01,Trea Turner,Washington Nationals,Hits,78,2020,National
+ozunama01,Marcell Ozuna,Atlanta Braves,Home Runs,18,2020,National
+sotoju01,Juan Soto,Washington Nationals,On Base Percentage,.490,2020,National
+ozunama01,Marcell Ozuna,Atlanta Braves,RBI,56,2020,National
+freemfr01,Freddie Freeman,Atlanta Braves,Runs,51,2020,National
+sotoju01,Juan Soto,Washington Nationals,Slugging Average,.695,2020,National
+storytr01,Trevor Story,Colorado Rockies,Stolen Bases,15,2020,National
+ozunama01,Marcell Ozuna,Atlanta Braves,Total Bases,145,2020,National
+storytr01,Trevor Story,Colorado Rockies,Triples,4,2020,National
+turnetr01,Trea Turner,Washington Nationals,Triples,4,2020,National
+yastrmi01,Mike Yastrzemski,San Francisco Giants,Triples,4,2020,National
+gallojo01,Joey Gallo,Texas Rangers,Base on Balls,111,2021,American
+gurriyu01,Yuli Gurriel,Houston Astros,Batting Average,.319,2021,American
+candeje01,Jeimer Candelario,Detroit Tigers,Doubles,42,2021,American
+martijd02,J.D. Martinez,Boston Red Sox,Doubles,42,2021,American
+merriwh01,Whit Merrifield,Kansas City Royals,Doubles,42,2021,American
+bichebo01,Bo Bichette,Toronto Blue Jays,Hits,191,2021,American
+guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Home Runs,48,2021,American
+perezsa02,Salvador Perez,Kansas City Royals,Home Runs,48,2021,American
+guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,On Base Percentage,.401,2021,American
+perezsa02,Salvador Perez,Kansas City Royals,RBI,121,2021,American
+guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Runs,123,2021,American
+guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Slugging Average,.601,2021,American
+merriwh01,Whit Merrifield,Kansas City Royals,Stolen Bases,40,2021,American
+guerrvl02,Vladimir Guerrero Jr.,Toronto Blue Jays,Total Bases,363,2021,American
+ohtansh01,Shohei Ohtani,Los Angeles Angels,Triples,8,2021,American
+sotoju01,Juan Soto,Washington Nationals,Base on Balls,145,2021,National
+turnetr01,Trea Turner,Washington Nationals,Batting Average,.328,2021,National
+harpebr03,Bryce Harper,Philadelphia Phillies,Doubles,42,2021,National
+turnetr01,Trea Turner,Washington Nationals,Hits,195,2021,National
+tatisfe02,Fernando Tatis Jr.,San Diego Padres,Home Runs,42,2021,National
+sotoju01,Juan Soto,Washington Nationals,On Base Percentage,.465,2021,National
+duvalad01,Adam Duvall,Miami Marlins,RBI,113,2021,National
+freemfr01,Freddie Freeman,Atlanta Braves,Runs,120,2021,National
+harpebr03,Bryce Harper,Philadelphia Phillies,Slugging Average,.615,2021,National
+turnetr01,Trea Turner,Washington Nationals,Stolen Bases,32,2021,National
+turnetr01,Trea Turner,Washington Nationals,Total Bases,319,2021,National
+peralda01,David Peralta,Arizona Diamondbacks,Triples,8,2021,National
+reynobr01,Bryan Reynolds,Pittsburgh Pirates,Triples,8,2021,National
+judgeaa01,Aaron Judge,New York Yankees,Base on Balls,111,2022,American
+arraelu01,Luis Arraez,Minnesota Twins,Batting Average,.316,2022,American
+ramirjo01,José Ramírez,Cleveland Guardians,Doubles,44,2022,American
+bichebo01,Bo Bichette,Toronto Blue Jays,Hits,189,2022,American
+judgeaa01,Aaron Judge,New York Yankees,Home Runs,62,2022,American
+judgeaa01,Aaron Judge,New York Yankees,On Base Percentage,.425,2022,American
+judgeaa01,Aaron Judge,New York Yankees,RBI,131,2022,American
+judgeaa01,Aaron Judge,New York Yankees,Runs,133,2022,American
+judgeaa01,Aaron Judge,New York Yankees,Slugging Average,.686,2022,American
+mateojo01,Jorge Mateo,Baltimore Orioles,Stolen Bases,35,2022,American
+judgeaa01,Aaron Judge,New York Yankees,Total Bases,391,2022,American
+rosarar01,Amed Rosario,Cleveland Guardians,Triples,9,2022,American
+sotoju01,Juan Soto,Washington Nationals,Base on Balls,135,2022,National
+mcneije01,Jeff McNeil,New York Mets,Batting Average,.326,2022,National
+freemfr01,Freddie Freeman,Los Angeles Dodgers,Doubles,44,2022,National
+freemfr01,Freddie Freeman,Los Angeles Dodgers,Hits,11,2022,National
+schwaky01,Kyle Schwarber,Philadelphia Phillies,Home Runs,46,2022,National
+freemfr01,Freddie Freeman,Los Angeles Dodgers,On Base Percentage,.407,2022,National
+alonspe01,Pete Alonso,New York Mets,RBI,131,2022,National
+bettsmo01,Mookie Betts,Los Angeles Dodgers,Runs,117,2022,National
+freemfr01,Freddie Freeman,Los Angeles Dodgers,Runs,117,2022,National
+goldspa01,Paul Goldschmidt,St. Louis Cardinals,Slugging Average,.578,2022,National
+bertijo01,Jon Berti,Miami Marlins,Stolen Bases,41,2022,National
+rileyau01,Austin Riley,Atlanta Braves,Total Bases,325,2022,National
+luxga01,Gavin Lux,Los Angeles Dodgers,Triples,7,2022,National
+nimmobr01,Brandon Nimmo,New York Mets,Triples,7,2022,National
+crawfjp01,J.P. Crawford,Seattle Mariners,Base on Balls,94,2023,American
+diazya01,Yandy Díaz,Tampa Bay Rays,Batting Average,.330,2023,American
+seageco01,Corey Seager,Texas Rangers,Doubles,42,2023,American
+semiema01,Marcus Semien,Texas Rangers,Hits,185,2023,American
+ohtansh01,Shohei Ohtani,Los Angeles Angels,Home Runs,44,2023,American
+ohtansh01,Shohei Ohtani,Los Angeles Angels,On Base Percentage,.412,2023,American
+tuckeky01,Kyle Tucker,Houston Astros,RBI,112,2023,American
+semiema01,Marcus Semien,Texas Rangers,Runs,122,2023,American
+ohtansh01,Shohei Ohtani,Los Angeles Angels,Slugging Average,.654,2023,American
+ruizes01,Esteury Ruiz,Oakland Athletics,Stolen Bases,67,2023,American
+ohtansh01,Shohei Ohtani,Los Angeles Angels,Total Bases,325,2023,American
+wittbo02,Bobby Witt Jr.,Kansas City Royals,Triples,11,2023,American
+sotoju01,Juan Soto,San Diego Padres,Base on Balls,132,2023,National
+arraelu01,Luis Arraez,Miami Marlins,Batting Average,.354,2023,National
+freemfr01,Freddie Freeman,Los Angeles Dodgers,Doubles,59,2023,National
+acunaro01,Ronald Acuña Jr.,Atlanta Braves,Hits,217,2023,National
+olsonma02,Matt Olson,Atlanta Braves,Home Runs,54,2023,National
+acunaro01,Ronald Acuña Jr.,Atlanta Braves,On Base Percentage,.416,2023,National
+olsonma02,Matt Olson,Atlanta Braves,RBI,139,2023,National
+acunaro01,Ronald Acuña Jr.,Atlanta Braves,Runs,149,2023,National
+olsonma02,Matt Olson,Atlanta Braves,Slugging Average,.604,2023,National
+acunaro01,Ronald Acuña Jr.,Atlanta Braves,Stolen Bases,73,2023,National
+acunaro01,Ronald Acuña Jr.,Atlanta Braves,Total Bases,383,2023,National
+carroco02,Corbin Carroll,Arizona Diamondbacks,Triples,10,2023,National
+judgeaa01,Aaron Judge,New York,Base on Balls,133,2024,American
+wittbo02,Bobby Witt Jr.,Kansas City,Batting Average,.332,2024,American
+duranja01,Jarren Duran,Boston,Doubles,48,2024,American
+wittbo02,Bobby Witt Jr.,Kansas City,Hits,211,2024,American
+judgeaa01,Aaron Judge,New York,Home Runs,58,2024,American
+judgeaa01,Aaron Judge,New York,On Base Percentage,.458,2024,American
+judgeaa01,Aaron Judge,New York,RBI,144,2024,American
+sotoju01,Juan Soto,New York,Runs,128,2024,American
+judgeaa01,Aaron Judge,New York,Slugging Average,.701,2024,American
+cabaljo01,Jose Caballero,Tampa Bay,Stolen Bases,44,2024,American
+judgeaa01,Aaron Judge,New York,Total Bases,392,2024,American
+duranja01,Jarren Duran,Boston,Triples,14,2024,American
+schwaky01,Kyle Schwarber,Philadelphia,Base on Balls,105,2024,National
+arraelu01,Luis Arraez,Miami,Batting Average,.314,2024,National
+tovarez01,Ezequiel Tovar,Colorado,Doubles,45,2024,National
+arraelu01,Luis Arraez,Miami,Hits,200,2024,National
+ohtansh01,Shohei Ohtani,Los Angeles,Home Runs,54,2024,National
+ohtansh01,Shohei Ohtani,Los Angeles,On Base Percentage,.390,2024,National
+ohtansh01,Shohei Ohtani,Los Angeles,RBI,130,2024,National
+ohtansh01,Shohei Ohtani,Los Angeles,Runs,134,2024,National
+ohtansh01,Shohei Ohtani,Los Angeles,Slugging Average,.646,2024,National
+delacel01,Elly De La Cruz,Cincinnati,Stolen Bases,67,2024,National
+ohtansh01,Shohei Ohtani,Los Angeles,Total Bases,411,2024,National
+carroco02,Corbin Carroll,Arizona,Triples,14,2024,National

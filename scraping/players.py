@@ -2,10 +2,11 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 import pandas as pd
 import traceback
-import time
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')  # Enable headless mode
@@ -13,14 +14,15 @@ driver = webdriver.Chrome(service=ChromeService(
     ChromeDriverManager().install()), options=options)
 
 
-def scraper_player(year):
-    url = f"https://www.baseball-almanac.com/yearly/yr{year}a.shtml"
+def scraper_player(year, league_type):
+    url = f"https://www.baseball-almanac.com/yearly/yr{year}{league_type}.shtml"
     driver.get(url)
     title = driver.title
     print(f"Title: {title}")
 
-    first_table = driver.find_elements(
-        By.CSS_SELECTOR, "table.boxed")[0]
+    wait = WebDriverWait(driver, 10)
+    first_table = wait.until(EC.presence_of_element_located((
+        By.CSS_SELECTOR, "table.boxed")))
     rows = first_table.find_elements(By.TAG_NAME, "tr")
     players = []
     last_stat_name = None
@@ -47,7 +49,8 @@ def scraper_player(year):
                     "team": player_team,
                     "statistic": last_stat_name,
                     "value": last_stat_value,
-                    "year": year
+                    "year": year,
+                    "league" : 'American' if league_type == 'a' else 'National'
                 })
 
         except Exception as e:
@@ -56,15 +59,15 @@ def scraper_player(year):
             continue
     return players
 
-
+league_type = ['a', 'n']
 all_players = []
 start_year = 2000
 end_year = 2024
 try:
     for year in range(start_year, end_year + 1):
-        players = scraper_player(year)
-        all_players.extend(players)
-        time.sleep(3)
+        for league in league_type:
+            players = scraper_player(year, league)
+            all_players.extend(players)
 except Exception as e:
     print("could't get the web page")
     print(f"Exception: {type(e).__name__} {e}")

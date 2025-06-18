@@ -6,17 +6,30 @@ stats_df = pd.read_csv('../clean_data/players_career_stats.csv')
 
 # Remove any duplicate rows from the DataFrame
 unique_players = cleaned_players[[
-    'player_id', 'name', 'team']].drop_duplicates()
+    'player_id', 'name', 'team', 'league']].drop_duplicates()
 annual_stats = cleaned_players[[
     'player_id', 'statistic', 'value', 'year']].drop_duplicates()
+leagues = cleaned_players['league'].unique()
 
-print(stats_df)
+def insert_leagues(cursor):
+    for league in leagues:
+        cursor.execute("INSERT OR IGNORE INTO League (league_type) VALUES (?)", (league,))
+
+
+def get_league_id(cursor, league_type):
+    cursor.execute("SELECT id FROM League WHERE league_type = ?", (league_type,))
+    result = cursor.fetchone()
+    if result:
+        return result[0]
+    else:
+        raise ValueError(f"League '{league_type}' not found.")
 
 
 def add_player(cursor, row):
     try:
+        league_id = get_league_id(cursor, row['league'])
         cursor.execute(
-            "INSERT INTO Players (player_id, name, team) VALUES (?, ?, ?)", (row['player_id'], row['name'], row['team']))
+            "INSERT INTO Players (player_id, name, team, league_id) VALUES (?, ?, ?, ?)", (row['player_id'], row['name'], row['team'], league_id))
         print(f"Player {row['name']} added successfully.")
     except sqlite3.IntegrityError:
         print(f"{row['name']} is already in the database.")
@@ -30,6 +43,7 @@ def add_annual_stats(cursor, row):
         print(f"No player found with ID {row['player_id']}")
         return
     try:
+        
         cursor.execute(
             "INSERT INTO PlayerStats (player_id, statistic, value, year) VALUES (?, ?, ?, ?)", (row['player_id'], row['statistic'], row['value'], row['year']))
         print(
@@ -61,7 +75,7 @@ def add_career_stats(cursor, row):
     except sqlite3.IntegrityError:
         print(
             f"Career stat already exists for player ID {row['player_id']}.")
-
+   
 
 try:
     with sqlite3.connect('../db/players.db') as conn:
@@ -69,10 +83,20 @@ try:
         conn.execute("PRAGMA foreign_keys = 1")
 
         cursor.execute("""
+            CREATE TABLE IF NOT EXISTS League(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            league_type TEXT NOT NULL,
+            UNIQUE(league_type)
+            )
+        """)
+        
+        cursor.execute("""
         CREATE TABLE IF NOT EXISTS Players(
             player_id TEXT PRIMARY KEY,
             name TEXT NOT NULL,
-            team TEXT NOT NULL
+            team TEXT NOT NULL,
+            league_id INTEGER NOT NULL,
+            FOREIGN KEY (league_id) REFERENCES League(id)
             )
         """)
 
@@ -111,6 +135,8 @@ try:
                        FOREIGN KEY (player_id) REFERENCES Players(player_id))
                        """)
         print('Tables created successfully.')
+
+        insert_leagues(cursor)
 
         for _, row in unique_players.iterrows():
             add_player(cursor, row)
