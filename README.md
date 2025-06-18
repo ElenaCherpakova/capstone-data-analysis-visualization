@@ -68,4 +68,4 @@ python sql_commands.py
 streamlit run streamlit.py 
 ```
 # Deployed Streamlite Dashboard Link
-[Link](https://capstone-data-analysis-visualization-aswfevw5h2bz8fngn2s6nv.streamlit.app/)
+[Link](https://data-analysis-visualization-elena-cherpakova.streamlit.app)
