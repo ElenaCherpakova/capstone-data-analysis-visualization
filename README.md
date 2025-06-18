@@ -41,6 +41,7 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
         ```bash
         python3 -m venv .venv
         source .venv/bin/activate
+        code .
         ```
 
     - On Windows(PowerShell):
