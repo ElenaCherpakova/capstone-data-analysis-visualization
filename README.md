@@ -6,9 +6,9 @@ I applied skills in data analysis and visualization to explore cleaned data, cre
 
 # Project Topics
 
-- **Data Analysis: ** Using Pandas to analyze cleaned datasets.
-- **Data Visualization: ** Creating interactive and clear visualizations to highlight key findings.
-- **Presentation: ** Delivering a comprehensive project including code, analysis, and visualizations.
+- **Data Analysis:** Using Pandas to analyze cleaned datasets.
+- **Data Visualization:** Creating interactive and clear visualizations to highlight key findings.
+- **Presentation:** Delivering a comprehensive project including code, analysis, and visualizations.
 
 # Project Components
 
