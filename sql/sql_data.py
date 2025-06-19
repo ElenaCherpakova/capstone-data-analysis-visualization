@@ -132,6 +132,7 @@ try:
                        batting_average REAL NOT NULL,
                        on_base_percentage REAL NOT NULL,
                        slugging_percentage REAL NOT NULL,
+                       UNIQUE(player_id),
                        FOREIGN KEY (player_id) REFERENCES Players(player_id))
                        """)
         print('Tables created successfully.')
