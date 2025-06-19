@@ -151,7 +151,7 @@ stat_options = {
 
 
 stat_pretty = st.sidebar.selectbox("📊 Choose a statistic to visualize trend over years:", list(stat_options.values()))
-stat_selected = [key for key, val in stat_options.items() if val == stat_pretty][0]
+stat_selected = [_ for _, val in stat_options.items() if val == stat_pretty][0]
 
 # Prepare stat trend data
 stat_data = players_fd[['player_id', 'year']].merge(

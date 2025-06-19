@@ -69,4 +69,4 @@ python sql_commands.py
 streamlit run streamlit_dash.py 
 ```
 # Deployed Streamlite Dashboard Link
-[Link](https://data-analysis-visualization-elena-cherpakova.streamlit.app)
+[Link](https://data-analysis-visualization-elena-cherpakova.streamlit.app/)
